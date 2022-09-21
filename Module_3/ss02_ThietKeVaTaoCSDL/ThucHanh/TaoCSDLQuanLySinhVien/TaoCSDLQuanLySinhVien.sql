@@ -9,8 +9,8 @@ create table Class(
 );
 
 create table Student(
-	StudentID int not null primary key auto_increment,
-    StudentName varchar(30),
+	StudentID int not null auto_increment primary key,
+    StudentName varchar(30) not null,
     Address varchar(50),
     Phone varchar(20),
     `Status` bit,
@@ -19,14 +19,14 @@ create table Student(
 );
 
 create table `Subject`(
-	SubID int not null primary key auto_increment,
-    SubName varchar(30),
+	SubID int not null auto_increment primary key,
+    SubName varchar(30) not null,
     Credit tinyint not null default 1 check (credit >= 1),
     `Status` bit default 1
 );
 
 create table Mark(
-	MarkID int not null primary key auto_increment,
+	MarkID int not null auto_increment primary key,
     SubID int not null,
     StudentID int not null,
     Mark float default 0 check (Mark between 0 and 100),
