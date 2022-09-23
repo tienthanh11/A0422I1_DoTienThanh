@@ -1,3 +1,4 @@
+-- ss02 Thiết kế và tạo CSDL
 create database if not exists a0422i1;
 use a0422i1;
 
