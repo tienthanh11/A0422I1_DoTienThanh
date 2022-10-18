@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00412ae1-fe14-4a8d-9d11-6d148692986e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/artifacts/TaoTrangWebDeDangNhapVaHienThiLoiChao_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/artifacts/TaoTrangWebDeDangNhapVaHienThiLoiChao_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/src/main/java/simple_login/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebDeDangNhapVaHienThiLoiChao/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/.idea/artifacts/TaoTrangWebHienThiThoiGianHeThong_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/.idea/artifacts/TaoTrangWebHienThiThoiGianHeThong_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/src/main/java/servlet/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/TaoTrangWebHienThiThoiGianHeThong/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/.idea/artifacts/UngDungChuyenDoiTienTe_Servlet_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/.idea/artifacts/UngDungChuyenDoiTienTe_Servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/src/main/java/java_web_currency_converter/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungChuyenDoiTienTe_Servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungTuDienDonGian_Servlet/src/main/java/simple_dictionary/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThucHanh/UngDungTuDienDonGian_Servlet/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2GI1hzYEdCNqv9Tlyn5dyHqLJmG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/A0422I1_DoTienThanh/Module_3/ss09_TongQuanUngDungWeb/ThucHanh/UngDungTuDienDonGian_Servlet",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00412ae1-fe14-4a8d-9d11-6d148692986e" name="Changes" comment="" />
+      <created>1666061406777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666061406777</updated>
+      <workItem from="1666061408273" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
