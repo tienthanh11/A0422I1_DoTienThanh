@@ -2,15 +2,48 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="demo_jsp_servlet:war exploded" />
+      <artifact name="UngDungCalculator:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4101905b-e984-42cb-91b7-e6bd20ac767f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f1446688-d11a-41da-96ed-119b8f7dca29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/main/java/controler/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UngDungCalculator_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UngDungCalculator_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/artifacts/UngDungChuyenDoiTienTe_JSP_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/artifacts/UngDungChuyenDoiTienTe_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungChuyenDoiTienTe_JSP/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/.idea/artifacts/UngDungTuDienDonGian_JSP_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/.idea/artifacts/UngDungTuDienDonGian_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThucHanh/UngDungTuDienDonGian_JSP/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss09_TongQuanUngDungWeb/demo/demo_jsp_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss09_TongQuanUngDungWeb/demo/demo_jsp_servlet/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,35 +71,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GI9HvPPhSDvzY2sVnTCQ6bN0Cm" />
+  <component name="ProjectId" id="2GItoYA35SKLdrHXpFMec7Afa1M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="demo_jsp_servlet:war exploded">
+        <artifact name="UngDungCalculator:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a817381a-83fa-405f-82ac-1931cb5e90aa" />
+        <option name="BASE_DIRECTORY_NAME" value="9fa282d8-982f-48c5-821b-ca8691830fb4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -73,7 +107,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62175" />
+        <option name="DEBUG_PORT" value="50712" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -138,7 +172,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="demo_jsp_servlet:war exploded" />
+          <artifact name="UngDungCalculator:war exploded" />
         </option>
       </method>
     </configuration>
@@ -146,13 +180,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4101905b-e984-42cb-91b7-e6bd20ac767f" name="Changes" comment="" />
-      <created>1666065148778</created>
+      <changelist id="f1446688-d11a-41da-96ed-119b8f7dca29" name="Changes" comment="" />
+      <created>1666088105896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666065148778</updated>
-      <workItem from="1666065150049" duration="1530000" />
-      <workItem from="1666072199029" duration="293000" />
+      <updated>1666088105896</updated>
+      <workItem from="1666088107209" duration="2068000" />
     </task>
     <servers />
   </component>

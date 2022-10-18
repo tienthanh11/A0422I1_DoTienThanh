@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="demo_jsp_servlet:war exploded" />
+      <artifact name="UngDungTuDienDonGian_JSP:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4101905b-e984-42cb-91b7-e6bd20ac767f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9464613-3b36-4935-acfd-76a5935a7d14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/artifacts/UngDungChuyenDoiTienTe_JSP_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/artifacts/UngDungChuyenDoiTienTe_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTienTe_JSP/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UngDungTuDienDonGian_JSP_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UngDungTuDienDonGian_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss09_TongQuanUngDungWeb/demo/demo_jsp_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss09_TongQuanUngDungWeb/demo/demo_jsp_servlet/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +52,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GI9HvPPhSDvzY2sVnTCQ6bN0Cm" />
+  <component name="ProjectId" id="2GIT3in2pE7T0EK2Dnmvw9yXQpT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,14 +73,14 @@
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="demo_jsp_servlet:war exploded">
+        <artifact name="UngDungTuDienDonGian_JSP:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a817381a-83fa-405f-82ac-1931cb5e90aa" />
+        <option name="BASE_DIRECTORY_NAME" value="19ab66f7-20bf-46c3-8978-4cea7c17fb3a" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -73,7 +88,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62175" />
+        <option name="DEBUG_PORT" value="57023" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -138,7 +153,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="demo_jsp_servlet:war exploded" />
+          <artifact name="UngDungTuDienDonGian_JSP:war exploded" />
         </option>
       </method>
     </configuration>
@@ -146,13 +161,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4101905b-e984-42cb-91b7-e6bd20ac767f" name="Changes" comment="" />
-      <created>1666065148778</created>
+      <changelist id="f9464613-3b36-4935-acfd-76a5935a7d14" name="Changes" comment="" />
+      <created>1666074904947</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666065148778</updated>
-      <workItem from="1666065150049" duration="1530000" />
-      <workItem from="1666072199029" duration="293000" />
+      <updated>1666074904947</updated>
+      <workItem from="1666074906193" duration="1511000" />
+      <workItem from="1666080930391" duration="1159000" />
     </task>
     <servers />
   </component>

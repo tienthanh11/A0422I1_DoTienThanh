@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UngDungCalculator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>UngDungCalculator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="UngDungCalculator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UngDungCalculator:war exploded" />
+    </root>
+  </artifact>
+</component>
