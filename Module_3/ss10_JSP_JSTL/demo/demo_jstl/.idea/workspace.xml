@@ -10,11 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8df4d318-c30f-437d-8518-d9a172bc5916" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/java/controller/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss11_MVC_Model/BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/artifacts/demo_jstl_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/artifacts/demo_jstl_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/src/main/java/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/src/main/java/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_MVC_Model/demo/demo_jstl/src/main/webapp/views/list.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/A0422I1_DoTienThanh/Module_3/ss11_MVC_Model/demo/demo_jstl",
+    "last_opened_file_path": "E:/A0422I1_DoTienThanh/Module_3/ss10_JSP_JSTL/demo/demo_jstl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,6 +172,7 @@
       <updated>1666502044118</updated>
       <workItem from="1666502045463" duration="951000" />
       <workItem from="1666503150833" duration="39000" />
+      <workItem from="1666503531293" duration="54000" />
     </task>
     <servers />
   </component>
