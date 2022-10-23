@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="TaoUngDungQuanLySanPham:war exploded" />
+      <artifact name="demo_jstl:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e980c4d-9877-4753-a889-d3560e29ac1a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product/edit.jsp" afterDir="false" />
+    <list default="true" id="8df4d318-c30f-437d-8518-d9a172bc5916" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BaiTap/TaoUngDungQuanLySanPham/src/main/webapp/product/edit.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
-        <option value="CSS File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -44,7 +42,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GLpd2DzH5uTOlxTguFoocKxpOh" />
+  <component name="ProjectId" id="2GWQpMd6acjmIEX4dCeCoX2z33f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,25 +55,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/A0422I1_DoTienThanh/Module_3/ss11_MVC_Model/demo/demo_jstl",
-    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "service.view.auto.scroll.to.source": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="TaoUngDungQuanLySanPham:war exploded">
+        <artifact name="demo_jstl:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e4170d5b-defa-452e-84b3-46156b61d2cf" />
+        <option name="BASE_DIRECTORY_NAME" value="cd798234-8e17-4d5b-8dfa-3d5c5cca2a46" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -83,7 +79,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53343" />
+        <option name="DEBUG_PORT" value="62514" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -148,7 +144,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="TaoUngDungQuanLySanPham:war exploded" />
+          <artifact name="demo_jstl:war exploded" />
         </option>
       </method>
     </configuration>
@@ -156,22 +152,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e980c4d-9877-4753-a889-d3560e29ac1a" name="Changes" comment="" />
-      <created>1666177803771</created>
+      <changelist id="8df4d318-c30f-437d-8518-d9a172bc5916" name="Changes" comment="" />
+      <created>1666502044118</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666177803771</updated>
-      <workItem from="1666177805221" duration="3978000" />
-      <workItem from="1666182276186" duration="1783000" />
-      <workItem from="1666229527556" duration="7650000" />
-      <workItem from="1666348372720" duration="5515000" />
-      <workItem from="1666355074981" duration="824000" />
-      <workItem from="1666486805935" duration="2853000" />
-      <workItem from="1666489831299" duration="3402000" />
-      <workItem from="1666500407763" duration="594000" />
-      <workItem from="1666501958318" duration="85000" />
-      <workItem from="1666503004271" duration="69000" />
-      <workItem from="1666503133326" duration="15000" />
+      <updated>1666502044118</updated>
+      <workItem from="1666502045463" duration="951000" />
+      <workItem from="1666503150833" duration="39000" />
     </task>
     <servers />
   </component>

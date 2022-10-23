@@ -58,7 +58,7 @@ public class ProductServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = this.productService.findById(id);
         RequestDispatcher dispatcher;
-        if(product == null) {
+        if (product == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             request.setAttribute("product", product);
@@ -77,7 +77,7 @@ public class ProductServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = this.productService.findById(id);
         RequestDispatcher dispatcher;
-        if(product == null) {
+        if (product == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             request.setAttribute("product", product);
@@ -110,7 +110,7 @@ public class ProductServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = this.productService.findById(id);
         RequestDispatcher dispatcher;
-        if(product == null) {
+        if (product == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             request.setAttribute("product", product);
@@ -187,7 +187,7 @@ public class ProductServlet extends HttpServlet {
         String producer = request.getParameter("producer");
         Product product = this.productService.findById(id);
         RequestDispatcher dispatcher;
-        if(product == null) {
+        if (product == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             product.setName(name);
@@ -212,7 +212,7 @@ public class ProductServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = this.productService.findById(id);
         RequestDispatcher dispatcher;
-        if(product == null) {
+        if (product == null) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
             this.productService.remove(id);
