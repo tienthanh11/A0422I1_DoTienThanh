@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UserManagement_Transaction:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>UserManagement_Transaction</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="UserManagement_Transaction-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UserManagement_Transaction:war exploded" />
+    </root>
+  </artifact>
+</component>
