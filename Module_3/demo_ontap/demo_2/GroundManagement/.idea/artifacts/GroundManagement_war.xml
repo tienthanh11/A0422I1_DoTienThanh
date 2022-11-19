@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GroundManagement:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GroundManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GroundManagement-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GroundManagement:war exploded" />
+    </root>
+  </artifact>
+</component>

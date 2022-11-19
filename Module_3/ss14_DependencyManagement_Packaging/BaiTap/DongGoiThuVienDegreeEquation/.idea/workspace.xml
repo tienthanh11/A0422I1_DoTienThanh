@@ -12,33 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af98dcf-c8b6-4c9f-be6f-b47ccf17f63c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DongGoiThuVienDegreeEquation_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DongGoiThuVienDegreeEquation_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DongGoiThuVienDegreeEquation_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DongGoiThuVienDegreeEquation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DegreeEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/artifacts/DongGoiThuVienJava_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/artifacts/DongGoiThuVienJava_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/artifacts/DongGoiThuVienJava_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/DongGoiThuVienJava.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/DongGoiThuVienJava/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/A0422I1_DoTienThanh/Module_3/ss14_DependencyManagement_Packaging/BaiTap/DongGoiThuVienDegreeEquation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/A0422I1_DoTienThanh/Module_3/ss14_DependencyManagement_Packaging/BaiTap/DongGoiThuVienDegreeEquation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.DegreeEquation">
     <configuration name="DegreeEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DegreeEquation" />
@@ -124,6 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667052724088</updated>
       <workItem from="1667052725380" duration="532000" />
+      <workItem from="1667096087436" duration="732000" />
+      <workItem from="1667197915782" duration="1853000" />
     </task>
     <servers />
   </component>
