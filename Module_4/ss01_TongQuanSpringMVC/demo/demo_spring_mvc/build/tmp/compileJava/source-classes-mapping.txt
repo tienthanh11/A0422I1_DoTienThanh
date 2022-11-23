@@ -1,16 +1,16 @@
-codegym/vn/config/AppConfiguration.java
- codegym.vn.config.AppConfiguration
+codegym/vn/repository/StudentRepository.java
+ codegym.vn.repository.StudentRepository
 codegym/vn/repository/StudentRepositoryImpl.java
  codegym.vn.repository.StudentRepositoryImpl
+codegym/vn/service/StudentService.java
+ codegym.vn.service.StudentService
+codegym/vn/bean/Student.java
+ codegym.vn.bean.Student
+codegym/vn/config/AppConfiguration.java
+ codegym.vn.config.AppConfiguration
 codegym/vn/service/StudentServiceImpl.java
  codegym.vn.service.StudentServiceImpl
 codegym/vn/config/AppInitializer.java
  codegym.vn.config.AppInitializer
-codegym/vn/repository/StudentRepository.java
- codegym.vn.repository.StudentRepository
-codegym/vn/bean/Student.java
- codegym.vn.bean.Student
-codegym/vn/service/StudentService.java
- codegym.vn.service.StudentService
 codegym/vn/controller/StudentController.java
  codegym.vn.controller.StudentController

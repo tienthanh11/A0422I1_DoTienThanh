@@ -1,6 +1,9 @@
 package codegym.vn.config;
 
+import codegym.vn.repository.StudentRepository;
+import codegym.vn.repository.StudentRepositoryImpl;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
@@ -28,5 +31,11 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
         bean.setPrefix("/WEB-INF/view/");
         bean.setSuffix(".jsp");
         return bean;
+    }
+
+    @Bean
+    @Qualifier("repo1")
+    public StudentRepository getStudentRepository() {
+        return new StudentRepositoryImpl();
     }
 }
