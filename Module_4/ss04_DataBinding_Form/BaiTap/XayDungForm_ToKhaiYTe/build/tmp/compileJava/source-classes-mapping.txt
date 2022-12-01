@@ -1,0 +1,12 @@
+com/codegym/model/Medical.java
+ com.codegym.model.Medical
+com/codegym/services/MedicalServices.java
+ com.codegym.services.MedicalServices
+com/codegym/repository/IMedicalRepository.java
+ com.codegym.repository.IMedicalRepository
+com/codegym/repository/MedicalRepository.java
+ com.codegym.repository.MedicalRepository
+com/codegym/services/IMedicalServices.java
+ com.codegym.services.IMedicalServices
+com/codegym/controller/MedicalController.java
+ com.codegym.controller.MedicalController

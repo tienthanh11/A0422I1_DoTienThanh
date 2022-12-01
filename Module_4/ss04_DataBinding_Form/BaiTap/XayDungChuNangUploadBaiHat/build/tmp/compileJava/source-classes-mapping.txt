@@ -1,0 +1,20 @@
+com/codegym/validate/Validate.java
+ com.codegym.validate.Validate
+com/codegym/configuration/AppConfiguration.java
+ com.codegym.configuration.AppConfiguration
+com/codegym/repository/MusicRepository.java
+ com.codegym.repository.MusicRepository
+com/codegym/model/Music.java
+ com.codegym.model.Music
+com/codegym/configuration/AppInitializer.java
+ com.codegym.configuration.AppInitializer
+com/codegym/model/MusicForm.java
+ com.codegym.model.MusicForm
+com/codegym/repository/IMusicRepository.java
+ com.codegym.repository.IMusicRepository
+com/codegym/service/MusicService.java
+ com.codegym.service.MusicService
+com/codegym/service/IMusicService.java
+ com.codegym.service.IMusicService
+com/codegym/controller/MusicUploadController.java
+ com.codegym.controller.MusicUploadController
