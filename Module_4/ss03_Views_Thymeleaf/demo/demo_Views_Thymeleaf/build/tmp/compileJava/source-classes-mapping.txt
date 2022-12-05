@@ -1,0 +1,16 @@
+com/codegym/service/StudentService.java
+ com.codegym.service.StudentService
+com/codegym/bean/Student.java
+ com.codegym.bean.Student
+com/codegym/repository/StudentRepository.java
+ com.codegym.repository.StudentRepository
+com/codegym/repository/StudentRepositoryImpl.java
+ com.codegym.repository.StudentRepositoryImpl
+com/codegym/service/StudentServiceImpl.java
+ com.codegym.service.StudentServiceImpl
+com/codegym/config/AppConfiguration.java
+ com.codegym.config.AppConfiguration
+com/codegym/config/AppInitializer.java
+ com.codegym.config.AppInitializer
+com/codegym/controller/StudentController.java
+ com.codegym.controller.StudentController
