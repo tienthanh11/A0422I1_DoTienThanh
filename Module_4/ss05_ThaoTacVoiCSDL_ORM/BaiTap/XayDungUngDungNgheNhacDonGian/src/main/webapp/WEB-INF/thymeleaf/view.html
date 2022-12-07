@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Detail music</h1>
+<a th:href="@{/music/}">Back to list music</a>
+<form method="post">
+    <table border="1" th:object="${music}">
+        <tr>
+            <td>Name song</td>
+            <td th:text="*{nameSong}"></td>
+        </tr>
+        <tr>
+            <td>Singer</td>
+            <td th:text="*{singer}"></td>
+        </tr>
+        <tr>
+            <td>Type music</td>
+            <td th:text="*{typeOfMusic}"></td>
+        </tr>
+        <tr>
+            <td>Path</td>
+            <td>
+                <audio controls>
+                    <source th:src="@{'/music/' + *{path}}" type="audio/ogg">
+                    <source th:src="@{'/music/' + *{path}}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
