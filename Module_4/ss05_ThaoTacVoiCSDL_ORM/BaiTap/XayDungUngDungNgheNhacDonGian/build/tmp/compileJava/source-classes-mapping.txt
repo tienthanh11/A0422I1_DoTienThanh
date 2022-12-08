@@ -1,9 +1,9 @@
-com/codegym/config/AppConfiguration.java
- com.codegym.config.AppConfiguration
+com/codegym/repository/MusicRepoImpl.java
+ com.codegym.repository.MusicRepoImpl
 com/codegym/service/MusicServiceImpl.java
  com.codegym.service.MusicServiceImpl
-com/codegym/controller/MusicController.java
- com.codegym.controller.MusicController
+com/codegym/config/AppInitializer.java
+ com.codegym.config.AppInitializer
 com/codegym/entity/MusicForm.java
  com.codegym.entity.MusicForm
 com/codegym/repository/IMusicRepository.java
@@ -12,7 +12,7 @@ com/codegym/service/IMusicService.java
  com.codegym.service.IMusicService
 com/codegym/entity/Music.java
  com.codegym.entity.Music
-com/codegym/config/AppInitializer.java
- com.codegym.config.AppInitializer
-com/codegym/repository/MusicRepoImpl.java
- com.codegym.repository.MusicRepoImpl
+com/codegym/config/AppConfiguration.java
+ com.codegym.config.AppConfiguration
+com/codegym/controller/MusicController.java
+ com.codegym.controller.MusicController

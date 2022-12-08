@@ -2,35 +2,39 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Create New Music</title>
 </head>
 <body>
-<h1>Create Music</h1>
-<a th:href="@{/music/}">Back to list music</a>
-<form th:action="@{/music/create}" method="post" enctype="multipart/form-data">
-    <table border="1" th:object="${musicForm}">
-        <tr>
-            <td><label for="name">Name song</label></td>
-            <td><input type="text" id="name" required th:field="*{nameSong}" placeholder="Input name song"></td>
-        </tr>
-        <tr>
-            <td><label for="singer">Singer</label></td>
-            <td><input id="singer" type="text" required th:field="*{singer}" placeholder="Input singer"></td>
-        </tr>
-        <tr>
-            <td><label for="type">Type music</label></td>
-            <td><input id="type" type="text" required th:field="*{typeOfMusic}" placeholder="Input type music"></td>
-        </tr>
-        <tr>
-            <td><label for="path">Path</label></td>
-            <td><input id="path" type="file" required th:field="*{path}" placeholder="Input name song"></td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <button type="submit">Save</button>
-            </td>
-        </tr>
-    </table>
-</form>
+<center>
+    <h1>Create New Music</h1>
+    <a th:href="@{/music/}"><button>Back to list music</button></a>
+    <br><br>
+    <form th:action="@{/music/create}" method="post" enctype="multipart/form-data">
+        <table border="1" th:object="${musicForm}">
+            <tr>
+                <td><label for="name">Name song</label></td>
+                <td><input type="text" id="name" required th:field="*{nameSong}" placeholder="Input name song"></td>
+            </tr>
+            <tr>
+                <td><label for="singer">Singer</label></td>
+                <td><input id="singer" type="text" required th:field="*{singer}" placeholder="Input singer"></td>
+            </tr>
+            <tr>
+                <td><label for="type">Type music</label></td>
+                <td><input id="type" type="text" required th:field="*{typeOfMusic}" placeholder="Input type music"></td>
+            </tr>
+            <tr>
+                <td><label for="path">Path</label></td>
+                <td><input id="path" type="file" required th:field="*{path}" placeholder="Input file path"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Save</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
 </body>
 </html>

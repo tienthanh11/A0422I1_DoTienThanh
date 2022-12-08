@@ -75,11 +75,6 @@ public class MusicController {
         musicService.create(music);
         return "redirect:/music/";
     }
-//    @GetMapping("delete/{name}")
-//    public String delete(@PathVariable("name") String name){
-//        musicService.delete(name);
-//        return "redirect:/music/";
-//    }
 
     @GetMapping("/delete/{name}")
     public String showFormDelete(@PathVariable("name") String name, Model model) {

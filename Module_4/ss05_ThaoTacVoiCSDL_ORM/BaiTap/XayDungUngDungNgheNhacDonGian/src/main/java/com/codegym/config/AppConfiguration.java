@@ -58,7 +58,6 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         templateResolver.setCharacterEncoding("UTF-8");
-
         return templateResolver;
     }
 
@@ -66,7 +65,6 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
     public SpringTemplateEngine templateEngine() {
         SpringTemplateEngine templateEngine = new SpringTemplateEngine();
         templateEngine.setTemplateResolver(templateResolver());
-
         return templateEngine;
     }
 
@@ -75,7 +73,6 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
         viewResolver.setTemplateEngine(templateEngine());
         viewResolver.setCharacterEncoding("UTF-8");
-
         return viewResolver;
     }
 
@@ -133,7 +130,6 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/music/**")
                 .addResourceLocations("file:" + fileUpload);
-
     }
 
     @Bean(name = "multipartResolver")
