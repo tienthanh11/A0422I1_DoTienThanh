@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/create}" method="post" th:object="${student}">
+    <table border="1">
+        <tr>
+            <td>Name Student</td>
+            <td><input type="text" th:field="*{nameStudent}"></td>
+        </tr>
+        <tr>
+            <td>Point Student</td>
+            <td><input type="text" th:field="*{point}"></td>
+        </tr>
+        <tr>
+            <td>Gender Student</td>
+            <td><input type="text" th:field="*{gender}"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                <button>Create Student</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

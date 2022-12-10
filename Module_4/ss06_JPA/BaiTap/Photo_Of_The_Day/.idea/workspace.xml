@@ -5,59 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d46fbf0-3c3f-4a3c-83e5-239d89803042" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/jandex-2.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Photo_Of_The_Day.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/config/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/config/AppConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/controller/BlogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/model/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/repository/IBlogRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/service/BlogServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/service/IBlogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss01_TongQuanSpringMVC/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss01_TongQuanSpringMVC/ThucHanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05_ThaoTacVoiCSDL_ORM/BaiTap/XayDungUngDungNgheNhacDonGian/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +29,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="2Ihcu1pwFUJybYmiV9CfnmoIY8v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,17 +67,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -218,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670637476617</updated>
-      <workItem from="1670637479050" duration="1961000" />
+      <workItem from="1670637479050" duration="2376000" />
+      <workItem from="1670639980744" duration="1468000" />
     </task>
     <servers />
   </component>
@@ -235,5 +181,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
