@@ -18,7 +18,7 @@ public class ProvinceFormatter implements Formatter<Province> {
 
     @Autowired
     public ProvinceFormatter(IProvinceService provinceService) {
-            this.provinceService = provinceService;
+        this.provinceService = provinceService;
     }
 
     @Override
