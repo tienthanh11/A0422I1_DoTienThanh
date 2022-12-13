@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d46fbf0-3c3f-4a3c-83e5-239d89803042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/java/com/codegym/picture_update/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/java/com/codegym/picture_update/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/java/com/codegym/picture_update/repository/ICommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/java/com/codegym/picture_update/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/java/com/codegym/picture_update/service/ICommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss07_SpringDataRepository/BaiTap/picture_update/src/main/resources/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss01_TongQuanSpringMVC/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss01_TongQuanSpringMVC/ThucHanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/codegym/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,6 +170,7 @@
       <updated>1670637476617</updated>
       <workItem from="1670637479050" duration="2376000" />
       <workItem from="1670639980744" duration="1468000" />
+      <workItem from="1670893171106" duration="49000" />
     </task>
     <servers />
   </component>
