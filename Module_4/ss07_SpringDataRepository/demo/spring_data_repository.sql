@@ -1,0 +1,2 @@
+create database spring_data_repository;
+use spring_data_repository;
