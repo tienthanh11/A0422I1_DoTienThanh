@@ -1,0 +1,2 @@
+create database validate_song_info;
+use validate_song_info;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Music</title>
+</head>
+<body>
+<center>
+    <h1>List Music</h1>
+    <a th:href="@{/music/create}"><button>Create new music</button></a>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Singer</th>
+            <th>Category</th>
+            <th>File Path</th>
+            <th>View</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tfbody th:each="music, iterStat : ${musicList}">
+            <tr th:object="${music}">
+                <td th:text="${iterStat.count}"></td>
+                <td th:text="*{nameSong}"></td>
+                <td th:text="*{singer}"></td>
+                <td th:text="*{typeOfMusic}"></td>
+                <td>
+                    <audio controls>
+                        <source th:src="@{'/music/' + ${music.path}}" type="audio/ogg">
+                        <source th:src="@{'/music/' + ${music.path}}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <a th:href="@{/music/view/{name}(name=*{nameSong})}">
+                        <button>View</button>
+                    </a>
+                </td>
+                <td>
+                    <a th:href="@{/music/edit/{name}(name=*{nameSong})}">
+                        <button>Edit</button>
+                    </a>
+                </td>
+                <td>
+                    <a th:href="@{/music/delete/{name}(name=*{nameSong})}">
+                        <button>Delete</button>
+                    </a>
+                </td>
+            </tr>
+        </tfbody>
+    </table>
+</center>
+</body>
+</html>

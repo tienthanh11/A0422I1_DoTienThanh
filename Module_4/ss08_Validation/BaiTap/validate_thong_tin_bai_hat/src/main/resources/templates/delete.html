@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Music</title>
+</head>
+<body>
+<center>
+    <h1>Delete Music</h1>
+    <form method="post" th:action="@{/music/delete}">
+        <table border="1" th:object="${music}">
+            <tr>
+                <td>Name song</td>
+                <td><input type="text" th:field="*{nameSong}"></td>
+            </tr>
+            <tr>
+                <td>Singer</td>
+                <td><input type="text" th:field="*{singer}"></td>
+            </tr>
+            <tr>
+                <td>Type music</td>
+                <td><input type="text" th:field="*{typeOfMusic}"></td>
+            </tr>
+            <tr>
+                <td>Path</td>
+                <td>
+                    <audio controls>
+                        <source th:src="@{'/music/' + *{path}}" type="audio/ogg">
+                        <source th:src="@{'/music/' + *{path}}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">
+                    <button type="submit">Delete</button>
+                    <button><a th:href="@{/music}">Cancel</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
