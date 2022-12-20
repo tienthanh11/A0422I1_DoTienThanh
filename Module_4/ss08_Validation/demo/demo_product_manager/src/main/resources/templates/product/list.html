@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="content">
+    <div class="container-fluid">
+        <!-- Vertical Layout -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>Product List</h2>
+                    </div>
+                    <div class="body table-responsive">
+                        <a th:href="@{/create}" class="btn btn-primary btn-custom">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new product
+                        </a>
+                        <table class="table table-striped" id="dataTable-listStudent" border="1">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Date Publish</th>
+                                <th>Description</th>
+                                <th>View</th>
+                                <th>Delete</th>
+                            </tr>
+                            </thead>
+                            <tbody th:each="product, iterStat: ${listProduct}">
+                            <tr th:object="${product}">
+                                <td th:text="*{id}"></td>
+                                <td th:text="*{name}"></td>
+                                <td th:text="*{price}"></td>
+                                <td th:text="*{datePublish}"></td>
+                                <td th:text="*{description}"></td>
+                                <td>
+                                    <a th:href="@{/list/view(id=*{id})}">View</a>
+                                </td>
+                                <td>
+                                    <a th:href="@{/student/delete/{id}(id=*{id})}">Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

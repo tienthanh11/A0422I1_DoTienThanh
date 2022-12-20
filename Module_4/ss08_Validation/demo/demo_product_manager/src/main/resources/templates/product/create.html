@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Product</title>
+</head>
+<body>
+<a th:href="@{/list}" style="text-decoration: none"><button>Quay lại trang list</button></a>
+<br>
+<form action="/create" method="post" th:object="${product}">
+    Tên: <input th:field="*{name}"><br>
+    <span style="color: red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span><br>
+    Giá: <input type="text" th:field="*{price}"><br>
+    <span style="color: red" th:if="${#fields.hasErrors('price')}" th:errors="*{price}"></span><br>
+    Ngày Bán: <input type="date" th:field="*{datePublish}"><br>
+    <span style="color: red" th:if="${#fields.hasErrors('datePublish')}" th:errors="*{datePublish}"></span><br>
+    Mo ta: <input th:field="*{description}"><br>
+    Kiểu sản phẩm: <select th:field="*{productType}">
+    <option th:each="product : ${listProductType}" th:value="${product.id}" th:text="${product.name}">
+    </option>
+</select>
+    <br>
+    <button type="submit">Create</button>
+</form>
+</body>
+</html>
