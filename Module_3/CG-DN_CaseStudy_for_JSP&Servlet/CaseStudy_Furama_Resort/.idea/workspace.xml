@@ -10,97 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb634be2-cea7-45c3-9400-8c3bc9622b26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/java/code/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/java/code/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/java/code/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/ThucHanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/CustomerManagementSpringPagingAndSortingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/java/cg/wbd/grandemonstration/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/main/resources/templates/customers/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/ss09_AOP_ExceptionHandling/ThucHanh/customer-management-spring-paging-and-sorting/src/test/java/cg/wbd/grandemonstration/CustomerManagementSpringPagingAndSortingApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/configuration/AppConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/configuration/AppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/controller/MusicUploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/model/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/model/MusicForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/repository/IMusicRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/repository/MusicRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/service/IMusicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/service/MusicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/com/codegym/validate/Validate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/classes/upload_music.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/groovy-2.5.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/groovy-extensions-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-aop-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-beans-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-context-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-core-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-expression-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-jcl-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-web-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/spring-webmvc-5.2.22.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/thymeleaf-expression-processor-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/thymeleaf-layout-dialect-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/WEB-INF/views/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/apache-tomcat-9.0.65/apache-tomcat-9.0.65/webapps/ROOT/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss02_SpringController/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss02_SpringController/ThucHanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/build/classes/java/main/com/codegym/controller/MusicUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/build/classes/java/main/com/codegym/controller/MusicUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/build/libs/XayDungChuNangUploadBaiHat-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/build/libs/XayDungChuNangUploadBaiHat-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/src/main/java/com/codegym/controller/MusicUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/src/main/java/com/codegym/controller/MusicUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/src/main/webapp/WEB-INF/views/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_4/ss04_DataBinding_Form/BaiTap/XayDungChuNangUploadBaiHat/src/main/webapp/WEB-INF/views/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +73,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Module_4/ss03_Views_Thymeleaf/BaiTap/product-management" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
@@ -299,6 +237,8 @@
       <workItem from="1668742143600" duration="30000" />
       <workItem from="1669021777177" duration="87000" />
       <workItem from="1670130900448" duration="882000" />
+      <workItem from="1671698904385" duration="2083000" />
+      <workItem from="1671702563888" duration="2457000" />
     </task>
     <servers />
   </component>
