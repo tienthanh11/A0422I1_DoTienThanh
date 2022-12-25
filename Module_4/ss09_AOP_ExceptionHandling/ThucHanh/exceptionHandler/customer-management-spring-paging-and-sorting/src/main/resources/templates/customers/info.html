@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Information</title>
+</head>
+<body>
+<center>
+    <form action="/customers" method="post">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <input type="hidden" name="id" th:value="${customer.id}">
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td th:text="${customer.id}"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="name" th:value="${customer.name}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="text" name="email" th:value="${customer.email}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <input type="text" name="address" th:value="${customer.address}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Province</td>
+                    <td>
+                        <select name="province">
+                            <option th:each="province : ${provinces}" th:value="${province.id}"
+                                    th:text="${province.name}"></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Update">
+                    </td>
+                    <td>
+                        <a href="/customers"><button>Back to list</button></a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>
