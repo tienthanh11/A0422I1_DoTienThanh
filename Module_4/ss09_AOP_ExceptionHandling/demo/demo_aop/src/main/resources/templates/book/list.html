@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Book</title>
+</head>
+<body>
+<center>
+    <h1>List Book</h1>
+    <p>
+        <a href="/book/create"><button>Create Book</button></a>
+    </p>
+<!--    <form th:action="@{/book/list}" method="get">
+        <input type="text" name="nameBook"/>
+        <input type="submit" value="Search"/>
+    </form>-->
+    <input type="text" name="nameBook" id="nameBook"/>
+    <button onclick="getListBook()">Search</button>
+    <br><br>
+    <h3>Số lần truy cập trang web là: <span th:text="${counter.getValue()}"></span></h3>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Author</th>
+            <th>Detail</th>
+        </tr>
+        </thead>
+        <tbody id="result">
+        <tr th:each="book, iter: ${books}" th:object="${book}">
+            <td th:text="*{bookId}"></td>
+            <td th:text="*{name}"></td>
+            <td th:text="*{price}"></td>
+            <td th:text="*{author}"></td>
+            <td>
+                <a th:href="@{/book/detail/__${book.bookId}__}"><button>Detail</button></a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</center>
+
+<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+<script src="/js/jquery.js"></script>
+<script src="/js/list.js"></script>
+</body>
+</html>
