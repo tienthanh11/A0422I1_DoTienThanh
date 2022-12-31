@@ -1,0 +1,2 @@
+create database demo_webservice_restful;
+use demo_webservice_restful;

@@ -1,0 +1,2 @@
+create database demo_session_cookie;
+use demo_session_cookie;
