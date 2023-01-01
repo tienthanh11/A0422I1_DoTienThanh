@@ -16,7 +16,7 @@ public class LoggingAspect {
     private Logger logger = Logger.getLogger(LoggingAspect.class.getName());
 
     // cách 1: định nghĩa method point cut sau đó khai báo advice với method đó
-    @Pointcut("execution(* codegym.vn.springboot.service.StudentServiceImpl.fi*(..))")
+    @Pointcut("execution(* com.codegym.demo_webservice_restful.service.StudentServiceImpl.fi*(..))")
     public void allStudentService(){}
 
     @Before("allStudentService()")

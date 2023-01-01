@@ -1,10 +1,11 @@
 package com.codegym.demo_webservice_restful.validate;
 
-import codegym.vn.springboot.entity.Student;
+import com.codegym.demo_webservice_restful.entity.Student;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 public class StudentValidate implements Validator {
+
     @Override
     public boolean supports(Class<?> clazz) {
         return Student.class.isAssignableFrom(clazz);

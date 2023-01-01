@@ -1,8 +1,5 @@
 package com.codegym.demo_webservice_restful.entity;
 
-import org.hibernate.validator.constraints.Length;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.util.Date;
@@ -10,18 +7,23 @@ import java.util.Date;
 @Entity
 @Table(name = "SinhVien")
 public class Student {
+
     @Id
     @Column(name = "student_id", columnDefinition = "varchar(10)")
     private String id;
-    @NotBlank(message = "{notempty}")
+
+    @NotBlank(message = "{notEmpty}")
     @Size(min = 5, message = "{name.size}")
     private String name;
+
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "classCode", referencedColumnName = "classCode")
     private ClassName className;
+
     private String email;
     private boolean sex;
     private String phoneNumber;
+
     @Transient
     private String note;
 

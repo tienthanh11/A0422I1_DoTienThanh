@@ -1,7 +1,7 @@
 package com.codegym.demo_webservice_restful.service;
 
-import codegym.vn.springboot.entity.Student;
-import codegym.vn.springboot.repository.StudentRepository;
+import com.codegym.demo_webservice_restful.entity.Student;
+import com.codegym.demo_webservice_restful.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,7 +12,9 @@ import java.util.List;
 
 @Service
 public class StudentServiceImpl implements StudentService {
+
     private StudentRepository studentRepository;
+
     @Autowired
     public StudentServiceImpl(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;

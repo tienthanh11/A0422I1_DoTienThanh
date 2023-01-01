@@ -7,6 +7,7 @@ import java.util.Set;
 
 @Entity
 public class ClassName {
+
     @Id
     @Column(length = 20)
     private String classCode;

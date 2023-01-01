@@ -1,7 +1,7 @@
 package com.codegym.demo_webservice_restful.service;
 
-import codegym.vn.springboot.entity.ClassName;
-import codegym.vn.springboot.repository.ClassNameRepository;
+import com.codegym.demo_webservice_restful.entity.ClassName;
+import com.codegym.demo_webservice_restful.repository.ClassNameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,31 +9,32 @@ import java.util.List;
 
 @Service
 public class ClassNameServiceImpl implements ClassNameService {
+
     @Autowired
-    ClassNameRepository repository;
+    ClassNameRepository classNameRepository;
 
     @Override
     public void create(ClassName className) {
-        repository.save(className);
+        classNameRepository.save(className);
     }
 
     @Override
     public void update(ClassName className) {
-        repository.save(className);
+        classNameRepository.save(className);
     }
 
     @Override
     public void delete(String id) {
-        repository.deleteById(id);
+        classNameRepository.deleteById(id);
     }
 
     @Override
     public List<ClassName> findAll() {
-        return repository.findAll();
+        return classNameRepository.findAll();
     }
 
     @Override
     public ClassName findById(String id) {
-        return repository.findById(id).orElse(null);
+        return classNameRepository.findById(id).orElse(null);
     }
 }

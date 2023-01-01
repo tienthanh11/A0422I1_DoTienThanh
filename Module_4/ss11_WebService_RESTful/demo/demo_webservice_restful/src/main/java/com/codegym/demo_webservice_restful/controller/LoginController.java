@@ -19,7 +19,7 @@ public class LoginController {
     public String doLogin(@RequestParam("username") String username,
                           @RequestParam("password") String password,
                           Model model, HttpSession session) {
-        if ("root".equals(username) && "123456".equals(password)) {
+        if ("admin".equals(username) && "123456".equals(password)) {
             session.setAttribute("username", username);
             return "redirect:/student/list";
         }
@@ -32,5 +32,4 @@ public class LoginController {
         session.removeAttribute("username");
         return "redirect:/login";
     }
-
 }

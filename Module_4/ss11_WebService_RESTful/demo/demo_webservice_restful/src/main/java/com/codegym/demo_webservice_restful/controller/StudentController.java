@@ -1,10 +1,10 @@
 package com.codegym.demo_webservice_restful.controller;
 
-import codegym.vn.springboot.entity.ClassName;
-import codegym.vn.springboot.entity.Student;
-import codegym.vn.springboot.service.ClassNameService;
-import codegym.vn.springboot.service.StudentService;
-import codegym.vn.springboot.validate.StudentValidate;
+import com.codegym.demo_webservice_restful.entity.ClassName;
+import com.codegym.demo_webservice_restful.entity.Student;
+import com.codegym.demo_webservice_restful.service.ClassNameService;
+import com.codegym.demo_webservice_restful.service.StudentService;
+import com.codegym.demo_webservice_restful.validate.StudentValidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Controller;
@@ -26,8 +26,9 @@ import java.util.stream.IntStream;
 @Controller
 @RequestMapping("/student")
 public class StudentController {
+
     @Autowired
-    private StudentService service;
+    private StudentService studentService;
 
     @Autowired
     private ClassNameService classNameService;
@@ -41,7 +42,7 @@ public class StudentController {
 //            ,headers = {"Content-Type=text/html","Accept=application/xml"}
             )
     public String list(Model model, @CookieValue(name = "count", defaultValue = "0") Long count, HttpServletResponse response) {
-        List<Student> students = service.findAll();
+        List<Student> students = studentService.findAll();
         Cookie cookie = new Cookie("count", ++count +"");
         cookie.setPath("/");
 //        cookie.setMaxAge(0);
@@ -100,7 +101,7 @@ public class StudentController {
 
     @GetMapping("/view")
     public String viewStudentByParam(@RequestParam("id") String id, Model model) {
-        Student student = service.findById(id);
+        Student student = studentService.findById(id);
         model.addAttribute("student", student);
         return "/student/view";
     }
@@ -132,7 +133,7 @@ public class StudentController {
             }
             return "/student/create";
         }
-        service.create(student);
+        studentService.create(student);
         return "redirect:/student/list";
     }
 
@@ -142,9 +143,9 @@ public class StudentController {
                           ,RedirectAttributes redirectAttributes
     ) {
         Student student = new Student(id, name);
-        service.create(student);
+        studentService.create(student);
         System.out.println("Create student success");
-        redirectAttributes.addFlashAttribute("students", service.findAll());
+        redirectAttributes.addFlashAttribute("students", studentService.findAll());
         return "redirect:/student/list2";
     }
 
@@ -155,7 +156,7 @@ public class StudentController {
         int currentPage = page.orElse(1);
         int pageSize = size.orElse(5);
         String sortField = sort.orElse("phoneNumber");
-        Page<Student> students = service.findAllWithPaging(PageRequest.of(currentPage - 1, pageSize, Sort.by(sortField).ascending()));
+        Page<Student> students = studentService.findAllWithPaging(PageRequest.of(currentPage - 1, pageSize, Sort.by(sortField).ascending()));
         model.addAttribute("students", students);
         int totalPages = students.getTotalPages();
         if (totalPages > 1) {
@@ -172,7 +173,7 @@ public class StudentController {
                              @RequestParam("size") Optional<Integer> size) {
         int currentPage = page.orElse(1);
         int pageSize = size.orElse(5);
-        Slice<Student> students = service.findAllWithSlice(PageRequest.of(currentPage - 1, pageSize));
+        Slice<Student> students = studentService.findAllWithSlice(PageRequest.of(currentPage - 1, pageSize));
         model.addAttribute("students", students.getContent());
         model.addAttribute("page", students);
         return "student/listPagingSlice";
