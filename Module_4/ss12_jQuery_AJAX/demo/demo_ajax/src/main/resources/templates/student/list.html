@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{template/template::header('List student')}">
+</head>
+<body>
+<div th:replace="~{template/template::pageloader}"></div>
+<nav th:replace="~{template/template::navbar}"></nav>
+<section th:replace="~{student/layout::sidebar}"></section>
+
+<section class="content">
+    <div class="container-fluid">
+        <!-- Vertical Layout -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>Student list</h2>
+                    </div>
+                    <h2 th:if="${user != null}">Xin chào bạn <span th:text="${user}"></span></h2>
+                    <h2>Số lần truy cập trang web của bạn là <span th:text="${count}"></span></h2>
+                    <h3 th:if="${user != null}"><a th:href="@{/logout}" th:text="Logout"></a></h3>
+                    <div class="body table-responsive">
+                        <a th:href="@{/student/create}" class="btn btn-primary btn-custom">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new student
+                        </a>
+                        <br>
+                        <input type="text" id="studentName">
+                        <button onclick="findByName()">Find Student By Name (Ajax)</button>
+                        <br>
+                        <form th:action="@{/student/search}" th:method="get">
+                            <input type="text" name="name">
+                            <input type="submit" value="Search by name">
+                        </form>
+                        <table class="table table-striped" id="dataTable-listStudent">
+                            <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Class name</th>
+                                <th>Email</th>
+                                <th>Phone Number</th>
+                                <th>Birthdate</th>
+                                <th>Sex</th>
+                                <th>View</th>
+                                <th>Delete</th>
+                            </tr>
+                            </thead>
+                            <tbody id="result">
+                            <tr th:each="student, iterStat: ${students}" th:object="${student}">
+                                <td th:text="${iterStat.count}"></td>
+                                <td th:text="*{id}"></td>
+                                <td th:text="*{name}"></td>
+                                <td th:text="*{className.className}"></td>
+                                <td th:text="*{email}"></td>
+                                <td th:text="*{phoneNumber}"></td>
+                                <!--<td th:text="*{birthdate}"></td>-->
+                                <!--<td th:text="*{#dates.format(birthdate, 'yyyy-MM-dd')}"></td>-->
+                                <td th:text="*{#dates.format(birthdate, 'dd-MM-yyyy')}"></td>
+                                <td th:text="*{sex ? 'Nam' : 'Nữ'}"></td>
+                                <td>
+                                    <a th:href="@{/student/view/{id}(id=*{id})}">View</a>
+                                </td>
+                                <td>
+                                    <a th:href="@{/student/delete/{id}(id=*{id})}">Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div th:replace="~{template/template::script}"></div>
+<div th:replace="~{template/template::footer}"></div>
+</body>
+</html>
