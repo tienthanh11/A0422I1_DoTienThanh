@@ -53,6 +53,5 @@ public class RestStudentController {
     public ResponseEntity<List<Student>> list(Model model, @RequestParam(value = "name", defaultValue = "") String name) {
         List<Student> students = "".equals(name) ? studentService.findAll(): studentService.findByName(name);
         return new ResponseEntity<>(students, HttpStatus.OK);
-
     }
 }

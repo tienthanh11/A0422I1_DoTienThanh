@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">
+            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#editForm">
+                Create Blog
+            </button>
+        </a>
+        <a th:href="@{/login}" class="btn btn-outline-info" role="button">Login</a>
+        <form class="d-flex">
+            <div sec:authorize="isAuthenticated()">
+                Authenticated as
+                <span sec:authentication="name"></span>
+            </div>
+            <a th:href="@{/logout}" class="btn btn-outline-warning" role="button">Logout</a>
+        </form>
+    </div>
+</nav>
+<table class="table table-bordered">
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Content</th>
+        <th>Title</th>
+        <th>Category Name</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="blog, status : ${list}" th:object="${blog}">
+        <td th:utext="${status.count}"></td>
+        <td th:utext="*{name}"></td>
+        <td th:utext="*{content}"></td>
+        <td th:utext="*{title}"></td>
+        <td th:utext="*{category.name}"></td>
+        <td>
+            <button th:onclick="showInfoEdit([[${blog.id}]],[[${blog.name}]],[[${blog.content}]],[[${blog.title}]],[[${blog.category.id}]])"
+                    type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#editForm">
+                <i class="fa-solid fa-highlighter"></i>
+            </button>
+            <button th:onclick="showInfoDelete([[${blog.id}]],[[${blog.content}]])" type="button"
+                    class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                <i class="fa-solid fa-eraser"></i>
+            </button>
+        </td>
+    </tr>
+</table>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Update Blog</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label for="idEdit"><input type="text" class="form-control" id="idEdit" name="id" hidden></label>
+
+                <div class="col-md-12">
+                    <label for="nameEdit" class="form-label">Name Blog</label>
+                    <input type="text" class="form-control" id="nameEdit" name="name" required
+                           pattern="^[a-zA-Z ,.'-]+$">
+                    <p id="errorName" class="text-danger"></p>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="contentEdit" class="form-label">Content Blog</label>
+                    <input type="text" class="form-control" id="contentEdit" name="content" required>
+                    <p id="errorContent" class="text-danger"></p>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="titleEdit" class="form-label">Title Blog</label>
+                    <input type="text" class="form-control" id="titleEdit" name="title" required>
+                    <p id="errorTitle" class="text-danger"></p>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="categoryEdit" class="form-label">Category</label>
+                    <select id="categoryEdit">
+                        <option th:each="cate: ${categoryList}" th:value="${cate.id}" th:text="${cate.name}"
+                                th:disabled="${cate.id == 0}">
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="editData">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel_1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel_1">Delete Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="deleteId" name="id">
+                Delete this <span id="contentDelete" class="text-danger"></span>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="deleteData">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Status -->
+<div class="modal fade" id="statusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-primary" id="staticBackdropLabel">Notification</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="message" class="text-success"></p>
+            </div>
+            <div class="modal-footer">
+                <button id="closeTopic" type="button" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script th:src="@{/index.js}" type="text/javascript"></script>
+</body>
+</html>
