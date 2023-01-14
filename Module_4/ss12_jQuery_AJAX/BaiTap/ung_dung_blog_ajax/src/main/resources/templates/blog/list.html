@@ -25,7 +25,7 @@
     <table class="table table-striped table-hover container" th:unless="${blogList.isEmpty()}" id="blogList">
         <thead>
         <tr>
-            <th>No</th>
+<!--            <th>No</th>-->
             <th>ID</th>
             <th>Date</th>
             <th>Author</th>
@@ -35,7 +35,7 @@
         </thead>
         <tbody class="content_table">
         <tr th:each="blog, iterStat : ${blogList}" th:object="${blog}">
-            <td th:text="${iterStat.count}"></td>
+<!--            <td th:text="${iterStat.count}"></td>-->
             <td th:text="*{id}"></td>
             <td th:text="*{createTime}"></td>
             <td th:text="*{author}"></td>
@@ -208,20 +208,20 @@
     var i = 0;
 
     function getListBlog(data) {
-        return '<tr>' +
-            '   <td>${data.id}</td>' +
-            '   <td>${data.createTime</td>' +
-            '   <td>${data.author}</td>' +
-            '   <td>' +
-            '       <img src="/image/${data.image}" width="100px" height="150px">' +
-            '   </td>' +
-            '   <td>' +
-            '       <a class="btn btn-success" href="/blog/list/detail/{id}(id=${data.id})">Detail</a>' +
-            '       <a href="/blog/edit/${data.id}" class="btn btn-primary">Edit</a>' +
-            '       <a class="btn btn-danger btn-delete" data-bs-toggle="modal" data-bs-target="#deleteModal" ' +
-            '           type="button" data-id="${data.id}">Delete</a>' +
-            '   </td>' +
-            '</tr>';
+        return `<tr>
+                    <td>${data.id}</td>
+                    <td>${data.createTime}</td>
+                    <td>${data.author}</td>
+                    <td>
+                        <img src="/image/${data.image}" width="100px" height="150px">
+                    </td>
+                    <td>
+                        <a class="btn btn-success" href="/blog/list/detail/{id}(id=${data.id})">Detail</a>
+                        <a href="/blog/edit/${data.id}" class="btn btn-primary">Edit</a>
+                        <a class="btn btn-danger btn-delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                            type="button" data-id="${data.id}">Delete</a>
+                    </td>
+                 </tr>`;
     }
 
     function loadPage() {
