@@ -64,7 +64,7 @@ public class RestBlogController {
         return new ResponseEntity<>(blogOptional.get(), HttpStatus.OK);
     }
 
-    @PostMapping
+    @PostMapping("/")
     public ResponseEntity<Blog> createBlog(@RequestBody Blog blog) {
         blogService.save(blog);
         return new ResponseEntity<>(blog, HttpStatus.CREATED);

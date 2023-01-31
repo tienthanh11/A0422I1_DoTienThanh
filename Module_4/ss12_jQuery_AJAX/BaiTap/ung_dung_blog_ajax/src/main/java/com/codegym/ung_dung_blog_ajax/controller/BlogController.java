@@ -94,7 +94,7 @@ public class BlogController {
     }
 
     @GetMapping("/edit/{id}")
-    public ModelAndView showeditBlog(@PathVariable("id") int id, RedirectAttributes redirectAttributes, @PageableDefault(value = 2) Pageable pageable) {
+    public ModelAndView showEditBlog(@PathVariable("id") int id, RedirectAttributes redirectAttributes, @PageableDefault(value = 2) Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("blog");
         modelAndView.addObject("blog", blogService.findById(id).get());
         modelAndView.addObject("popup", 2);
