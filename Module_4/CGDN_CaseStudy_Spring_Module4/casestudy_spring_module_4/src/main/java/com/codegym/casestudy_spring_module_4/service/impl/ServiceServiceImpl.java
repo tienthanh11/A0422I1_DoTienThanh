@@ -36,12 +36,12 @@ public class ServiceServiceImpl implements IServiceService {
     }
 
     @Override
-    public void deleteService(Integer id) {
+    public void deleteService(String id) {
         serviceRepository.deleteById(id);
     }
 
     @Override
-    public Service selectService(Integer id) {
+    public Service selectService(String id) {
         return serviceRepository.findById(id).orElse(null);
     }
 }

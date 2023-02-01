@@ -15,7 +15,7 @@ public interface IServiceService {
 
     void updateService(Service service);
 
-    void deleteService(Integer id);
+    void deleteService(String id);
 
-    Service selectService(Integer id);
+    Service selectService(String id);
 }

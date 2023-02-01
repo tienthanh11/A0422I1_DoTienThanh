@@ -118,6 +118,27 @@
                 </tr>
                 </tbody>
             </table>
+
+            <!-- phân trang -->
+            <div th:if="${customerList.totalPages > 1}">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item" th:if="${customerList.hasPrevious()}">
+                        <a class="page-link"
+                           th:href="@{'/customer/list'(page=${customerList.number - 1})}">Previous</a>
+                    </li>
+
+                    <li th:each="i:${#numbers.sequence(0, customerList.totalPages - 1)}"
+                        th:class="'page-item ' + (${i==customerList.number} ? 'active')" aria-current="page">
+                        <a class="page-link"
+                           th:href="@{'/customer/list'(page=${i})}" th:text="${i+1}"></a>
+                    </li>
+
+                    <li class="page-item" th:if="${customerList.hasNext()}">
+                        <a class="page-link"
+                           th:href="@{'/customer/list'(page=${customerList.number + 1})}">Next</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -125,19 +146,23 @@
 <!-- Modal -->
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <form th:action="@{/customer/delete}" method="get">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Xác nhận xoá !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input hidden type="text" id="idCustomer" name="idDelete">
+                    <span>Bạn có muốn xoá Customer </span>
+                    <span class="text-danger" id="nameCustomer"></span><span> không ?</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Delete</button>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
+        </form>
     </div>
 </div>
 
@@ -150,5 +175,11 @@
 <script src="/template/bootstrap/jquery-3.6.0.min.js"></script>
 <script src="/template/bootstrap/js/bootstrap.js"></script>
 <script src="/template/index.js"></script>
+<script>
+    function showInfo(id, name) {
+        document.getElementById("idCustomer").value = id;
+        document.getElementById("nameCustomer").innerText = name;
+    }
+</script>
 </body>
 </html>

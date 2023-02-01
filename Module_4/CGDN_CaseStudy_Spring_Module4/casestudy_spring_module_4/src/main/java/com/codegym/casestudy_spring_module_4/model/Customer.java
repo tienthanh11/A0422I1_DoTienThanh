@@ -1,39 +1,63 @@
 package com.codegym.casestudy_spring_module_4.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.hibernate.annotations.GenericGenerator;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.util.Date;
 import java.util.List;
 
 @Entity
 public class Customer {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer customerId;
 
+    @Id
+    @GeneratedValue(generator = "prod-generator")
+    @GenericGenerator(name = "prod-generator",
+            parameters = @org.hibernate.annotations.Parameter(name = "prefix", value = "KH"),
+            strategy = "com.codegym.casestudy_spring_module_4.model.MyGenerator")
+    @Column(length = 45)
+    private String customerId;
+
+   /* @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Pattern(regexp = "^KH-\\d{4}$", message = "{idCustomer}")
+    private String customerId;*/
+
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "customer_type_id", nullable = false)
     private CustomerType customerTypeId;
 
+    @NotEmpty
     @Column(nullable = false, length = 45)
     private String customerName;
 
+    @NotNull
     @Column(nullable = false)
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date customerBirthday;
 
+    @NotNull
     @Column(nullable = false)
     private Boolean customerGender;
 
     @Column(nullable = false, length = 45)
+    @Pattern(regexp = "^\\d{9}$|^\\d{12}$", message = "{idCard}")
     private String customerIdCard;
 
     @Column(nullable = false, length = 45)
+    @Pattern(regexp = "^090\\d{7}$|^091\\d{7}$|^\\(84\\)\\+90\\d{7}$|^\\(84\\)\\+91\\d{7}$", message = "{phone}")
     private String customerPhone;
 
     @Column(length = 45)
+    @Pattern(regexp = "^[a-z]\\w*@gmail+\\.[a-z]+$", message = "{email}")
     private String customerEmail;
 
+    @NotEmpty
     @Column(length = 45)
     private String customerAddress;
 
@@ -56,9 +80,9 @@ public class Customer {
         this.customerAddress = customerAddress;
     }
 
-    public Customer(Integer customerId, CustomerType customerTypeId, String customerName, Date customerBirthday,
+    public Customer(String customerId, CustomerType customerTypeId, String customerName, Date customerBirthday,
                     Boolean customerGender, String customerIdCard, String customerPhone, String customerEmail,
-                    String customerAddress) {
+                    String customerAddress, List<Contract> contracts) {
         this.customerId = customerId;
         this.customerTypeId = customerTypeId;
         this.customerName = customerName;
@@ -68,13 +92,15 @@ public class Customer {
         this.customerPhone = customerPhone;
         this.customerEmail = customerEmail;
         this.customerAddress = customerAddress;
+        this.contracts = contracts;
     }
 
-    public Integer getCustomerId() {
+
+    public String getCustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(Integer customerId) {
+    public void setCustomerId(String customerId) {
         this.customerId = customerId;
     }
 

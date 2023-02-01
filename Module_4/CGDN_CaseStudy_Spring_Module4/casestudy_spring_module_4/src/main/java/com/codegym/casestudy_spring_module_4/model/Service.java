@@ -8,8 +8,8 @@ import java.util.List;
 @Entity
 public class Service {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer serviceId;
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private String serviceId;
 
     @Column(nullable = false, length = 45)
     private String serviceName;
@@ -61,7 +61,7 @@ public class Service {
         this.numberOfFloors = numberOfFloors;
     }
 
-    public Service(Integer serviceId, String serviceName, Integer serviceArea, Double serviceCost,
+    public Service(String serviceId, String serviceName, Integer serviceArea, Double serviceCost,
                    Integer serviceMaxPeople, RentType rentTypeId, ServiceType serviceTypeId, String standardRoom,
                    String descriptionOtherConvenience, Double poolArea, Integer numberOfFloors) {
         this.serviceId = serviceId;
@@ -77,11 +77,11 @@ public class Service {
         this.numberOfFloors = numberOfFloors;
     }
 
-    public Integer getServiceId() {
+    public String getServiceId() {
         return serviceId;
     }
 
-    public void setServiceId(Integer serviceId) {
+    public void setServiceId(String serviceId) {
         this.serviceId = serviceId;
     }
 

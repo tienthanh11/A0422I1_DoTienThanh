@@ -15,7 +15,9 @@ public interface ICustomerService {
 
     void updateCustomer(Customer customer);
 
-    void deleteCustomer(Integer id);
+    void deleteCustomer(String id);
 
-    Customer selectCustomer(Integer id);
+    Customer selectCustomer(String id);
+
+    Page<Customer> searchCustomer(String nameSearch, String emailSearch, String typeSearch, Pageable pageable);
 }

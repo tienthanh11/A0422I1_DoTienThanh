@@ -48,6 +48,6 @@ public class EmployeeServiceImpl implements IEmployeeService {
 
     @Override
     public Page<Employee> searchEmployee(String nameSearch, String emailSearch, String divisionSearch, Pageable pageable) {
-        return employeeRepository.search("%" + nameSearch + "%", "%" + emailSearch + "%", "%" + divisionSearch + "%", pageable);
+        return employeeRepository.searchEmployee("%" + nameSearch + "%", "%" + emailSearch + "%", "%" + divisionSearch + "%", pageable);
     }
 }

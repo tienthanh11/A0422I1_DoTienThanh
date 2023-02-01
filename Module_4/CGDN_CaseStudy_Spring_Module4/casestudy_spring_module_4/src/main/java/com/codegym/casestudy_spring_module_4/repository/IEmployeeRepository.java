@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IEmployeeRepository extends JpaRepository<Employee, Integer> {
     @Query(value = "select * from Employee where employee_name like ? and employee_email like ? and division_id like ?", nativeQuery = true)
-    Page<Employee> search(String name, String email, String divisionId, Pageable pageable);
+    Page<Employee> searchEmployee(String name, String email, String divisionId, Pageable pageable);
 }

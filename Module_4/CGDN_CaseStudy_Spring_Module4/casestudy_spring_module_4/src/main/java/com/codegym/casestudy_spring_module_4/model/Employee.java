@@ -1,6 +1,7 @@
 package com.codegym.casestudy_spring_module_4.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
@@ -17,7 +18,9 @@ public class Employee {
     @Column(nullable = false, length = 45)
     private String employeeName;
 
+    @NotNull
     @Column(nullable = false)
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date employeeBirthday;
 
     @Column(nullable = false, length = 45)
