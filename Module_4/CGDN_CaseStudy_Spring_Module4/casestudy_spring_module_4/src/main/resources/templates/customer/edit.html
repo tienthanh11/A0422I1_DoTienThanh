@@ -21,8 +21,15 @@
             <a class="navbar-brand text-light click" href="/customer/list">Customer</a>
             <a class="navbar-brand text-light click" href="/service/list">Service</a>
             <a class="navbar-brand text-light click" href="/contract/list">Contract</a>
-            <form class="d-flex m-0">
-                <input type="search" class="form-control me-2" placeholder="Search" aria-label="Search">
+            <form class="d-flex m-0" th:action="@{/customer/list}" method="get">
+                <input class="me-2" name="nameSearch" placeholder="Input name" th:value="${nameSearch}">
+                <input class="me-2" name="emailSearch" placeholder="Input email" th:value="${emailSearch}">
+                <select class="me-2" name="typeSearch">
+                    <option value="">Choose</option>
+                    <option th:each="customerType : ${customerTypeList}" th:value="${customerType.customerTypeId}"
+                            th:text="${customerType.customerTypeName}"
+                            th:selected="${customerType.customerTypeId} == ${typeSearch}"></option>
+                </select>
                 <button class="btn btn-outline-light" type="submit">Search</button>
             </form>
         </div>
@@ -43,11 +50,8 @@
             <div class="container">
                 <form th:action="@{/customer/edit}" method="post" th:object="${customer}">
                     <div class="input-group mb-3">
-                        <span class="input-group-text">ID</span>
-                        <input type="text" class="form-control me-2" placeholder="Id" th:field="*{customerId}">
-                    </div>
+                        <input hidden type="text" class="form-control me-2" placeholder="Id" th:field="*{customerId}">
 
-                    <div class="input-group mb-3">
                         <span class="input-group-text">Name</span>
                         <input type="text" class="form-control me-2" placeholder="Name" th:field="*{customerName}"
                                th:value="*{customerName}">

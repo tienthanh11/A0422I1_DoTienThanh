@@ -15,7 +15,7 @@ public class ServiceTypeServiceImpl implements IServiceTypeService {
     IServiceTypeRepository serviceTypeRepository;
 
     @Override
-    public List<ServiceType> findAllService() {
+    public List<ServiceType> findAllTypeService() {
         return serviceTypeRepository.findAll();
     }
 }

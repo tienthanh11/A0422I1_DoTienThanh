@@ -24,7 +24,7 @@ public class Customer {
 
    /* @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Pattern(regexp = "^KH-\\d{4}$", message = "{idCustomer}")
+    @Pattern(regexp = "^KH-\\d{4}$", message = "Mã khách hàng không đúng định dạng KH-XXXX (X là số từ 0-9)")
     private String customerId;*/
 
     @NotNull

@@ -3,40 +3,55 @@ package com.codegym.casestudy_spring_module_4.model;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.util.List;
 
 @Entity
 public class Service {
     @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Pattern(regexp = "^DV-\\d{4}$", message = "Mã dịch vụ không đúng định dạng DV-XXXX (X là số 0-9)")
     private String serviceId;
 
+    @NotEmpty
     @Column(nullable = false, length = 45)
     private String serviceName;
 
+    @Min(value = 0, message = "Diện tích phải lớn hơn 0")
     private Integer serviceArea;
 
     @Column(nullable = false)
+    @Min(value = 0, message = "Giá phải lớn hơn 0")
     private Double serviceCost;
 
+    @Min(value = 0, message = "Số lượng người phải lớn hơn 0")
     private Integer serviceMaxPeople;
 
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "rent_type_id", nullable = false)
     private RentType rentTypeId;
 
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "service_type_id", nullable = false)
     private ServiceType serviceTypeId;
 
+    @NotEmpty
     @Column(length = 45)
     private String standardRoom;
 
+    @NotEmpty
     @Column(length = 45)
     private String descriptionOtherConvenience;
 
+    @Min(value = 0, message = "Lớn hơn 0")
     private Double poolArea;
 
+    @Min(value = 0, message = "Số tầng phải là số nguyên dương")
     private Integer numberOfFloors;
 
     @JsonBackReference
