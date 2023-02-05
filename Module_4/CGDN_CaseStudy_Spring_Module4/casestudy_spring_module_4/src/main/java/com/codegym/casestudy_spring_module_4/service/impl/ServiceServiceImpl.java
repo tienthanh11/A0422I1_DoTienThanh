@@ -44,4 +44,9 @@ public class ServiceServiceImpl implements IServiceService {
     public Service selectService(String id) {
         return serviceRepository.findById(id).orElse(null);
     }
+
+    @Override
+    public Page<Service> searchService(String nameSearch, String rentTypeSearch, String typeSearch, Pageable pageable) {
+        return serviceRepository.searchService("%" + nameSearch + "%", "%" + rentTypeSearch + "%", "%" + typeSearch + "%", pageable);
+    }
 }

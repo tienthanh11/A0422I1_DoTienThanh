@@ -1,8 +1,11 @@
 package com.codegym.casestudy_spring_module_4.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.List;
 
@@ -12,26 +15,35 @@ public class Contract {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer contractId;
 
+    @NotNull
     @Column(nullable = false)
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date contractStartDate;
 
+    @NotNull
     @Column(nullable = false)
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date contractEndDate;
 
     @Column(nullable = false)
+    @Min(value = 0, message = "Không được bé hơn 0")
     private Double contractDeposit;
 
     @Column(nullable = false)
+    @Min(value = 0, message = "Không được bé hơn 0")
     private Double contractTotalMoney;
 
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "employee_id", nullable = false)
     private Employee employeeId;
 
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "customer_id", nullable = false)
     private Customer customerId;
 
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "service_id", nullable = false)
     private Service serviceId;

@@ -18,4 +18,6 @@ public interface IServiceService {
     void deleteService(String id);
 
     Service selectService(String id);
+
+    Page<Service> searchService(String nameSearch, String rentTypeSearch, String typeSearch, Pageable pageable);
 }

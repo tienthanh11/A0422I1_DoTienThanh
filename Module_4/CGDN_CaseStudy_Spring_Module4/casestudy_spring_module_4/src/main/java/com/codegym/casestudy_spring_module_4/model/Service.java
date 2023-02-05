@@ -1,6 +1,7 @@
 package com.codegym.casestudy_spring_module_4.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
@@ -11,10 +12,19 @@ import java.util.List;
 
 @Entity
 public class Service {
+
     @Id
+    @GeneratedValue(generator = "prod-generator")
+    @GenericGenerator(name = "prod-generator",
+            parameters = @org.hibernate.annotations.Parameter(name = "prefix", value = "DV"),
+            strategy = "com.codegym.casestudy_spring_module_4.model.MyGenerator")
+    @Column(length = 45)
+    private String serviceId;
+
+/*    @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Pattern(regexp = "^DV-\\d{4}$", message = "Mã dịch vụ không đúng định dạng DV-XXXX (X là số 0-9)")
-    private String serviceId;
+    private String serviceId;*/
 
     @NotEmpty
     @Column(nullable = false, length = 45)
