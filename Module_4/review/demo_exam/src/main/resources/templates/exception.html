@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+<h1 style="color: red">Error</h1>
+<h2>The website is having an unusual problem, please try again later</h2>
+<h2 th:text="|Error message: ${mess}|">Error message</h2>
+</body>
+</html>
