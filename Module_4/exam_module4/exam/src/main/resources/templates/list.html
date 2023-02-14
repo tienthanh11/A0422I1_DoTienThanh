@@ -17,8 +17,8 @@
             <form class="d-flex m-0" th:action="@{/list}" method="get">
                 <select class="me-2" name="serviceType">
                     <option value="">Chọn</option>
-                    <option value="1">Đất</option>
-                    <option value="0">Nhà Đất</option>
+                    <option value="Đất">Đất</option>
+                    <option value="Nhà Đất">Nhà Đất</option>
                 </select>
                 <select class="me-2" name="customerId">
                     <option value="">Chọn</option>
@@ -63,7 +63,7 @@
                     <td th:text="${iterStat.count}"></td>
                     <td th:text="*{code}"></td>
                     <td th:text="*{customer.name}"></td>
-                    <td th:text="*{serviceType} ? 'Đất' : 'Nhà Đất'"></td>
+                    <td th:text="*{serviceType}"></td>
                     <td th:text="*{#dates.format(date, 'dd-MM-yyyy')}"></td>
                     <td th:text="*{price}"></td>
                     <td th:text="*{area}"></td>

@@ -21,7 +21,7 @@ public class Service {
     private String code;
 
     @NotNull(message = "Không được để trống")
-    private Boolean serviceType;
+    private String serviceType;
 
     @NotNull(message = "Không được để trống")
     @DateTimeFormat(pattern = "dd/MM/yyyy")
@@ -43,7 +43,7 @@ public class Service {
     public Service() {
     }
 
-    public Service(Integer id, String code, Boolean serviceType, Date date, Double price, Double area, Customer customer) {
+    public Service(Integer id, String code, String serviceType, Date date, Double price, Double area, Customer customer) {
         this.id = id;
         this.code = code;
         this.serviceType = serviceType;
@@ -69,11 +69,11 @@ public class Service {
         this.code = code;
     }
 
-    public Boolean getServiceType() {
+    public String getServiceType() {
         return serviceType;
     }
 
-    public void setServiceType(Boolean serviceType) {
+    public void setServiceType(String serviceType) {
         this.serviceType = serviceType;
     }
 
