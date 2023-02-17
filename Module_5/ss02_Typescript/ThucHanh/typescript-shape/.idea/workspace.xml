@@ -20,18 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8706c16-65b6-459f-b627-f5a0f90288a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/typescript-control-flow-and-loop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-is-prime/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-is-prime/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-is-prime/.idea/typescript-is-prime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-is-prime/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -45,15 +33,122 @@
       <change afterPath="$PROJECT_DIR$/src/rectangle.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/shape.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/typescript-variable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/.idea/bootstrap_hien_thi_san_pham.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/product/product.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/product/product.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/app/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/bootstrap_hien_thi_san_pham/angular-using-bootstrap/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/.idea/hien_thi_thong_tin_thu_nuoi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/.idea/thay_doi_font_size.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss03_Angular_Overview/ThucHanh/thay_doi_font_size/angular-change-font-size/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +176,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\A0422I1_DoTienThanh\Module_5\ss02_Typescript\ThucHanh\typescript-shape\node_modules\prettier" />
     <property name="ts.external.directory.path" value="E:\A0422I1_DoTienThanh\Module_5\ss02_Typescript\ThucHanh\typescript-shape\node_modules\typescript\lib" />
@@ -96,6 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676459322657</updated>
       <workItem from="1676459325349" duration="1239000" />
+      <workItem from="1676629901489" duration="70000" />
     </task>
     <servers />
   </component>
@@ -117,6 +214,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1676459806281">

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="684cc557-d9cf-4046-b168-0341bb4d4224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bootstrap_hien_thi_san_pham.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/product/product.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/product/product.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/app/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-using-bootstrap/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/hien_thi_thong_tin_thu_nuoi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/app/pet/pet.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/angular-show-pet-info/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/.idea/thay_doi_font_size.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thay_doi_font_size/angular-change-font-size/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module_4/ss01_TongQuanSpringMVC/ThucHanh/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2LrPfqonrExuQmlox47n5qKcvhi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ts.external.directory.path" value="E:\A0422I1_DoTienThanh\Module_5\ss03_Angular_Overview\ThucHanh\bootstrap_hien_thi_san_pham\angular-using-bootstrap\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="684cc557-d9cf-4046-b168-0341bb4d4224" name="Default Changelist" comment="" />
+      <created>1676626334739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676626334739</updated>
+      <workItem from="1676626338324" duration="1774000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
