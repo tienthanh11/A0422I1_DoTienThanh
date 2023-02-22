@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.click {
+  cursor: pointer;
+}
+
+
+body {
+  background-image: url(https://furamavietnam.com/wp-content/uploads/2018/08/BG2.jpg);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.font-text {
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+}
+
+.font-text-footer {
+  font-family: "Playfair Display", serif;
+  color: #e1bc00;
+  font-weight: bold;
+}
+
+.text-card {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card {
+  box-shadow: 5px 5px 20px black;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .intro {
+  height: 180px;
+  background: rgba(27, 27, 27, 0.3);
+}
+
+.card:hover .text-card {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-img-top {
+  transform: scale(1.0);
+  transition: all 0.3s ease-out;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1) translateY(-20px);
+  opacity: 0.5;
+}
+
+.intro {
+  position: absolute;
+  background: rgba(27, 27, 27, 0.5);
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+  bottom: 0;
+  height: 45px;
+  text-align: center;
+  margin: 0;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .nav-link {
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
