@@ -11,7 +11,8 @@ export class ProgressBarComponent implements OnInit {
   @Input() progressColor = '#4CAF50';
   @Input() progress = 0;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.loading();
