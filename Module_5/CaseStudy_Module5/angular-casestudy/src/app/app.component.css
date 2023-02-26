@@ -1,0 +1,78 @@
+.backToTop {
+  position: fixed;
+  z-index: 1020;
+  right: 25px;
+  bottom: -25px;
+  opacity: 0;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: none;
+  font-size: 28px;
+  line-height: 82px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.25s, bottom 0.75s ease-in-out;
+  transition: all 0.25s, bottom 0.75s ease-in-out;
+}
+
+@media (max-width: 1023px) {
+  .backToTop {
+    right: 15px;
+    width: 62px;
+    height: 62px;
+    font-size: 22px;
+    line-height: 62px;
+  }
+}
+
+@media (max-width: 767px) {
+  .backToTop {
+    width: 52px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 52px;
+  }
+}
+
+.backToTop [class*='icon'] {
+  display: inline-block;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  height: 0;
+  line-height: 0;
+  margin: 0;
+  vertical-align: inherit;
+  width: inherit;
+}
+
+.backToTop:hover {
+  background: #bce2d8;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.backToTop:hover [class*='icon'] {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.backToTop.visible {
+  opacity: 1;
+  bottom: 45px;
+}
+
+@media (max-width: 1023px) {
+  .backToTop.visible {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  body.booking-form-on .backToTop.visible {
+    bottom: 45px;
+  }
+}
