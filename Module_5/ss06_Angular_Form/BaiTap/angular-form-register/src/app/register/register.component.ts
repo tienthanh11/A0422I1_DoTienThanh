@@ -18,7 +18,7 @@ export class RegisterComponent implements OnInit {
     this.registerForm = new FormGroup({
       email: new FormControl('', [Validators.required, Validators.email]),
       pass: new FormGroup({
-        password: new FormControl('', [Validators.required, Validators.maxLength(6)]),
+        password: new FormControl('', [Validators.required, Validators.minLength(6)]),
         confirmPassword: new FormControl('', [Validators.required, Validators.minLength(6)])
       }, comparePassword),
       country: new FormControl('', Validators.required),
@@ -29,4 +29,8 @@ export class RegisterComponent implements OnInit {
   }
 
 
+  createAccount() {
+    console.log(this.registerForm.value);
+    this.registerForm.reset();
+  }
 }

@@ -1,5 +1,5 @@
 <h2 class="text-success text-center">Register</h2>
-<form class="container" [formGroup]="registerForm">
+<form class="container" [formGroup]="registerForm" (ngSubmit)="createAccount()">
   <div class="form-group">
     <label for="id">Email: <span class="text-danger">*</span></label>
     <input type="text" class="form-control" id="id" placeholder="Enter email" formControlName="email">
@@ -11,25 +11,28 @@
 
   <br>
 
-  <div formControlName="password">
+  <div formGroupName="pass">
     <div class="form-group">
-      <label for="pass">Password: <span class="text-danger">*</span></label>
-      <input type="password" class="form-control" id="pass" placeholder="Enter password" formControlName="password">
-    </div>
-    <div class="alert alert-danger" role="alert"
-         *ngIf="registerForm.get('pass').get('password').invalid && (registerForm.get('pass').get('password').touched ||
-         registerForm.get('pass').get('password').dirty)">
-      Mặt khẩu phải gồm ít nhất 6 kí tự
+      <label>Password: <span class="text-danger">*</span></label>
+      <input formControlName="password" class="form-control" aria-describedby="emailHelp">
+      <div class="alert alert-danger" role="alert"
+           *ngIf="registerForm.get('pass').invalid && (registerForm.get('pass').touched||registerForm.get('pass').dirty)">
+        Pass is not valid
+      </div>
     </div>
     <br>
     <div class="form-group">
-      <label for="confirm">Confirm Password: <span class="text-danger">*</span></label>
-      <input type="password" class="form-control" id="confirm" placeholder="Enter password"
-             formControlName="confirmPassword">
+      <label>Confirm Password <span class="text-danger">*</span></label>
+      <input formControlName="confirmPassword" class="form-control" aria-describedby="emailHelp">
+      <div class="alert alert-danger" role="alert"
+           *ngIf="registerForm.get('pass').invalid && (registerForm.get('pass').touched||registerForm.get('pass').dirty)">
+        Pass is not valid
+      </div>
     </div>
-    <div class="alert alert-danger" role="alert"
-         *ngIf="registerForm.hasError('passwordNotMatch', ['pass']) && registerForm.get('pass').touched">
-      Mặt khẩu không trùng khớp
+
+    <div class="text-warning" *ngIf="registerForm.hasError('passwordNotMatch',['pass'])
+      && registerForm.hasError('minlength')">
+      Password does not match
     </div>
   </div>
 
