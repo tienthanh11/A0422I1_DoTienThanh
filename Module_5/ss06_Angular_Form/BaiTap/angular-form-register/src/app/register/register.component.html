@@ -1,0 +1,99 @@
+<h2 class="text-success text-center">Register</h2>
+<form class="container" [formGroup]="registerForm">
+  <div class="form-group">
+    <label for="id">Email: <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="id" placeholder="Enter email" formControlName="email">
+  </div>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.get('email').invalid && (registerForm.get('email').touched || registerForm.get('email').dirty)">
+    Email không đúng định dạng
+  </div>
+
+  <br>
+
+  <div formControlName="password">
+    <div class="form-group">
+      <label for="pass">Password: <span class="text-danger">*</span></label>
+      <input type="password" class="form-control" id="pass" placeholder="Enter password" formControlName="password">
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="registerForm.get('pass').get('password').invalid && (registerForm.get('pass').get('password').touched ||
+         registerForm.get('pass').get('password').dirty)">
+      Mặt khẩu phải gồm ít nhất 6 kí tự
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="confirm">Confirm Password: <span class="text-danger">*</span></label>
+      <input type="password" class="form-control" id="confirm" placeholder="Enter password"
+             formControlName="confirmPassword">
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="registerForm.hasError('passwordNotMatch', ['pass']) && registerForm.get('pass').touched">
+      Mặt khẩu không trùng khớp
+    </div>
+  </div>
+
+  <br>
+
+  <div class="form-group">
+    <label for="country">Country: <span class="text-danger">*</span></label>
+    <select class="form-select" id="country" formControlName="country">
+      <option value="1">Huế</option>
+      <option value="2">Hà Nội</option>
+      <option value="3">Đà Nẵng</option>
+      <option value="4">HCM</option>
+      <option value="5">Quảng Nam</option>
+    </select>
+  </div>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.get('country').invalid && (registerForm.get('country').touched || registerForm.get('country').dirty)">
+    Thành phố chưa chọn
+  </div>
+
+  <br>
+
+  <div class="form-group">
+    <label for="age">Age: <span class="text-danger">*</span></label>
+    <input type="number" class="form-control" id="age" placeholder="Enter age" formControlName="age">
+  </div>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.get('age').invalid && (registerForm.get('age').touched || registerForm.get('age').dirty)">
+    Tuổi phải lớn hơn hoặc bằng 18
+  </div>
+
+  <br>
+
+  <div class="form-group">
+    <label for="female">Gender: <span class="text-danger">*</span></label>
+    <div class="form-line">
+      <input type="radio" id="male" name="gender" value="male" formControlName="gender">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" formControlName="gender">
+      <label for="female">Female</label>
+      <input class="ml-3" type="radio" id="others" name="gender" value="others" formControlName="gender">
+      <label for="others">Others</label>
+    </div>
+  </div>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.get('gender').invalid && (registerForm.get('gender').touched || registerForm.get('gender').dirty)">
+    Chưa chọn giới tính
+  </div>
+
+  <br>
+
+  <div class="form-group">
+    <label for="phone">Phone: <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="phone" placeholder="Enter phone" formControlName="phone">
+  </div>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.get('phone').invalid && (registerForm.get('phone').touched || registerForm.get('phone').dirty)">
+    Số điện thoại không đúng định dạng
+  </div>
+
+  <br>
+
+  <div class="text-center">
+    <button class="btn btn-info mr-1" type="submit" [disabled]="registerForm.invalid">Create</button>
+    <button class="btn btn-danger" type="reset">Cancel</button>
+  </div>
+</form>
