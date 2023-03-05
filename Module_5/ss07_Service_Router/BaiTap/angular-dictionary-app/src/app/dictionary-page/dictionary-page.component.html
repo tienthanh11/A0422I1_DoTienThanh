@@ -1,0 +1,28 @@
+<div class="container text-center">
+  <nav class="navbar navbar-light bg-light d-flex justify-content-center">
+    <form class="form-inline">
+      <input class="form-control me-sm-2" #wordSearch type="search" placeholder="Search" aria-label="Search">
+      <button (click)="translate(wordSearch.value)" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </nav>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>STT</th>
+      <th>Word</th>
+      <th>Detail</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let word of wordList; index as i">
+      <td>{{i + 1}}</td>
+      <td>{{word.word}}</td>
+      <td>
+        <a class="btn btn-warning btn-outline-dark" [routerLink]="['/dictionary-detail', word.word]">Detail</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
