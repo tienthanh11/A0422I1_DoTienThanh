@@ -1,1 +1,100 @@
-<p>customer-list works!</p>
+<div class="container">
+  <div>
+    <br>
+    <h1 class="font-text-footer" style="text-align: -webkit-center">Customer List</h1>
+    <br>
+    <!--+++++++++++++++++++++search+++++++++++++++++++++-->
+    <form [formGroup]="customerSearch" class="mb-3">
+      <div class="row">
+        <div class="input-group col-md-4">
+          <span class="input-group-text">Name Search</span>
+          <input type="text" class="form-control me-2" placeholder="name search" formControlName="name">
+        </div>
+        <div class="input-group col-md-4">
+          <span class="input-group-text">Email Search</span>
+          <input type="text" class="form-control me-2" placeholder="email search" formControlName="email">
+        </div>
+        <div class="input-group col-md-3">
+          <span class="input-group-text">Type Search</span>
+          <select class="me-2" formControlName="typeId" style="width: auto">
+            <option selected value="">Choose</option>
+            <option *ngFor="let customerType of customerTypes" value="{{customerType.id}}">
+              {{customerType.name}}
+            </option>
+          </select>
+        </div>
+        <div class="col-md-1">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+    <br>
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+        <tr>
+          <th>ID</th>
+          <th>Type Name</th>
+          <th>Name</th>
+          <th>Birthday</th>
+          <th>Gender</th>
+          <th>Id Card</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th></th>
+          <th>
+            <button type="button" class="btn btn-outline-secondary" routerLink="/customer/create">Create</button>
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let customer of customers">
+          <td>{{customer.id}}</td>
+          <td>{{customer.type.name}}</td>
+          <td>{{customer.name}}</td>
+          <td>{{customer.birthday|date:"dd/MM/yyyy"}}</td>
+          <td *ngIf="customer.gender == 0">Nữ</td>
+          <td *ngIf="customer.gender == 1">Nam</td>
+          <td>{{customer.idCard}}</td>
+          <td>{{customer.phone}}</td>
+          <td>{{customer.email}}</td>
+          <td>{{customer.address}}</td>
+          <td>
+            <button type="button" class="btn btn-outline-primary" [routerLink]="['/customer/edit', customer.id]">
+              Edit
+            </button>
+          </td>
+          <td>
+            <button type="button" class="btn btn-outline-danger " data-bs-toggle="modal"
+                    data-bs-target="#customerModal">
+              Delete
+            </button>
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="customerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+

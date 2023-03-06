@@ -10,5 +10,5 @@ export interface IFacility {
   description?: string;
   poolArea?: number;
   numberOfFloor?: number;
-  imag?: string;
+  image?: string;
 }
