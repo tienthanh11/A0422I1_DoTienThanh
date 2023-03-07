@@ -1,1 +1,133 @@
-<p>facilities-create works!</p>
+<div class="container">
+  <div class="row d-flex justify-content-center align-content-center" style="height: 100%">
+    <div class="card rounded-3">
+      <img
+        src="https://furamavietnam.com/wp-content/uploads/2018/10/Vietnam_Danang_Furama_Resort_Exterior-Courtyard-Ocean-Pool.jpg?id=2350"
+        class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem" alt="Sample photo">
+      <div class="card-body" style="background-color: #addccf">
+        <h3 class="font-text-footer">Add new service</h3>
+        <br>
+        <form class="px-md-2" [formGroup]="facilityForm" (ngSubmit)="createFacility()">
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('name').invalid && (facilityForm.get('name').touched || facilityForm.get('name').dirty)">
+            Name invalid!!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Name service</span>
+            <input type="text" class="form-control me-2" placeholder="Tên dịch vụ" formControlName="name">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('area').invalid && (facilityForm.get('area').touched||facilityForm.get('area').dirty)">
+            Area invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Area</span>
+            <input type="text" class="form-control me-2" placeholder="Diện tích" formControlName="area">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('cost').invalid && (facilityForm.get('cost').touched||facilityForm.get('cost').dirty)">
+            Cost invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Cost</span>
+            <input type="number" class="form-control me-2" placeholder="Giá" formControlName="cost">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('maxPeople').invalid && (facilityForm.get('maxPeople').touched||facilityForm.get('maxPeople').dirty)">
+            Max People invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Max People</span>
+            <input type="number" class="form-control me-2" placeholder="Giới hạn người" formControlName="maxPeople">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('rentType').invalid && (facilityForm.get('rentType').touched||facilityForm.get('rentType').dirty)">
+            Rent Type invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Service</span>
+            <select class="form-select me-2" formControlName="rentType">
+              <option value="" disabled>Choose</option>
+              <option value="Villa">Villa</option>
+              <option value="House">House</option>
+              <option value="Room">Room</option>
+            </select>
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('serviceType').invalid && (facilityForm.get('serviceType').touched||facilityForm.get('serviceType').dirty)">
+            Service Type invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Service type</span>
+            <select class="form-select me-2" formControlName="serviceType">
+              <option value="" disabled>Choose</option>
+              <option value="Year">Year</option>
+              <option value="Month">Month</option>
+              <option value="Day">Day</option>
+            </select>
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('standardRoom').invalid && (facilityForm.get('standardRoom').touched||facilityForm.get('standardRoom').dirty)">
+            Standard Room invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Standard room</span>
+            <select class="form-select me-2" formControlName="standardRoom">
+              <option value="" disabled>Choose</option>
+              <option value="Vip">Vip</option>
+              <option value="Normal">Normal</option>
+            </select>
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('description').invalid && (facilityForm.get('description').touched||facilityForm.get('description').dirty)">
+            Description invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Description service</span>
+            <textarea class="form-control me-2" name="" id="" cols="30" rows="4" placeholder="Mô tả dịch vụ"
+                      formControlName="description"></textarea>
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('poolArea').invalid && (facilityForm.get('poolArea').touched||facilityForm.get('poolArea').dirty)">
+            Pool Area invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Pool area</span>
+            <input type="number" class="form-control me-2" placeholder="Diện tích hồ bơi" formControlName="poolArea">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('numberOfFloor').invalid && (facilityForm.get('numberOfFloor').touched||facilityForm.get('numberOfFloor').dirty)">
+            Number Of Floor invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Number of floor</span>
+            <input type="number" class="form-control me-2" placeholder="Số tầng" formControlName="numberOfFloor">
+          </div>
+
+          <small class="text-danger mb-0 pb-0"
+                 *ngIf="facilityForm.get('image').invalid && (facilityForm.get('image').touched||facilityForm.get('image').dirty)">
+            Image invalid!!
+          </small>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Image</span>
+            <input type="text" class="form-control me-2" placeholder="Hình ảnh" formControlName="image">
+          </div>
+
+          <div class="input-group mb-3 justify-content-center">
+            <button type="submit" class="btn btn-success btn-lg mb-1" [disabled]="facilityForm.invalid">Create</button>
+            <button type="button" class="btn btn-danger btn-lg mb-1">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

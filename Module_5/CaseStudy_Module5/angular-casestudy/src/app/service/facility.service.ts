@@ -11,4 +11,8 @@ export class FacilityService {
   getAllFacility() {
     return FacilityDAO.facilities;
   }
+
+  createFacility(facility) {
+    return FacilityDAO.facilities.push(facility);
+  }
 }
