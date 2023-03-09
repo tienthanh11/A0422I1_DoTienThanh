@@ -10,12 +10,12 @@ import {Router} from "@angular/router";
 })
 export class FacilitiesCreateComponent implements OnInit {
 
-  facilityForm: FormGroup;
+  facilityFormCreate: FormGroup;
 
   constructor(private facilityService: FacilityService, private router: Router) { }
 
   ngOnInit(): void {
-    this.facilityForm = new FormGroup({
+    this.facilityFormCreate = new FormGroup({
       id: new FormControl('',),
       name: new FormControl('', [Validators.required, Validators.pattern('^\\D*$')]),
       area: new FormControl('', [Validators.required, Validators.min(0)]),
@@ -32,9 +32,9 @@ export class FacilitiesCreateComponent implements OnInit {
   }
 
   createFacility() {
-    const facility = this.facilityForm.value;
+    const facility = this.facilityFormCreate.value;
     this.facilityService.createFacility(facility);
-    this.facilityForm.reset();
+    this.facilityFormCreate.reset();
     alert('Thêm mới dịch vụ thành công');
     this.router.navigateByUrl('facility/list');
   }

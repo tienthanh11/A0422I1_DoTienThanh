@@ -1,1 +1,106 @@
-<p>customer-create works!</p>
+<div class="container">
+  <div class="row justify-content-center align-content-center" style="height: 100%">
+    <div class="col-lg-8 col-xl-6">
+      <div class="card rounded-3">
+        <img
+          src="https://furamavietnam.com/wp-content/uploads/2018/10/Vietnam_Danang_Furama_Resort_Exterior-Courtyard-Ocean-Pool.jpg?id=2350;"
+          class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+          alt="Sample photo">
+        <div class="card-body" style="background-color: #addccf">
+          <h1 class="font-text-footer">Create Customer</h1>
+          <br>
+          <div class="container-fluid p-0 align-content-center justify-content-center">
+            <form [formGroup]="customerFormCreate" (ngSubmit)="createCustomer()">
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('name').invalid && (customerFormCreate.get('name').touched||customerFormCreate.get('name').dirty)">
+                Name invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Name</span>
+                <input type="text" class="form-control me-2" placeholder="Tên khách hàng" formControlName="name">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('gender').invalid && (customerFormCreate.get('gender').touched||customerFormCreate.get('gender').dirty)">
+                Gender invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Gender</span>
+                <select class="form-select me-2" formControlName="gender">
+                  <option selected disabled value="">Choose</option>
+                  <option value="1">Nam</option>
+                  <option value="0">Nữ</option>
+                </select>
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('birthday').invalid && (customerFormCreate.get('birthday').touched||customerFormCreate.get('birthday').dirty)">
+                Birthday invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Birthday</span>
+                <input type="date" class="form-control me-2" placeholder="Ngày Sinh" formControlName="birthday">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('type').invalid && (customerFormCreate.get('type').touched||customerFormCreate.get('type').dirty)">
+                Type invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Type</span>
+                <select class="form-select me-2" formControlName="type">
+                  <option selected disabled value="">Choose</option>
+                  <option *ngFor="let customerType of customerTypes" [ngValue]="customerType">
+                    {{customerType.name}}
+                  </option>
+                </select>
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('idCard').invalid && (customerFormCreate.get('idCard').touched||customerFormCreate.get('idCard').dirty)">
+                Id Card invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Id Card</span>
+                <input type="text" class="form-control me-2" placeholder="Id Card" formControlName="idCard">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('phone').invalid && (customerFormCreate.get('phone').touched||customerFormCreate.get('phone').dirty)">
+                Phone invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Phone</span>
+                <input type="text" class="form-control me-2" placeholder="Số điện thoại" formControlName="phone">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('email').invalid && (customerFormCreate.get('email').touched||customerFormCreate.get('email').dirty)">
+                Email invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Email</span>
+                <input type="text" class="form-control me-2" placeholder="Email" formControlName="email">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="customerFormCreate.get('address').invalid && (customerFormCreate.get('address').touched||customerFormCreate.get('address').dirty)">
+                Address invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Address</span>
+                <input type="text" class="form-control me-2" placeholder="Địa chỉ" formControlName="address">
+              </div>
+
+              <br>
+              <div class="input-group d-flex align-content-center justify-content-center">
+                <button type="submit" class="btn btn-primary" [disabled]="customerFormCreate.invalid">Create</button>
+                <button type="button" class="btn btn-danger ms-3" routerLink="/customer/list">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

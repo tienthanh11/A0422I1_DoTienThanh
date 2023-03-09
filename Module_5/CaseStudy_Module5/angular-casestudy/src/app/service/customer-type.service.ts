@@ -6,7 +6,8 @@ import {CustomerTypeDAO} from "../data/CustomerTypeDAO";
 })
 export class CustomerTypeService {
 
-  constructor() { }
+  constructor() {
+  }
 
   getAllCustomerType() {
     return CustomerTypeDAO.customerTypes;
