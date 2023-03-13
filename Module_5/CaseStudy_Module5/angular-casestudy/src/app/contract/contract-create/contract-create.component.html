@@ -1,1 +1,93 @@
-<p>contract-create works!</p>
+<div class="container">
+  <div class="row d-flex justify-content-center align-content-center" style="height: 100%">
+    <div class="col-lg-8 col-xl-6">
+      <div class="card rounded-3">
+        <img
+          src="https://furamavietnam.com/wp-content/uploads/2018/10/Vietnam_Danang_Furama_Resort_Exterior-Courtyard-Ocean-Pool.jpg?id=2350;"
+          class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+        <div class="card-body" style="background-color: #addccf">
+          <h1 class="font-text-footer">Create Contract</h1>
+          <br>
+
+          <div class="container-fluid p-0">
+            <form [formGroup]="contractFormCreate" (ngSubmit)="createContract()">
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('startDate').invalid && (contractFormCreate.get('startDate').touched||contractFormCreate.get('startDate').dirty)">
+                Start Date invalid!!
+              </small>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">Start Date</span>
+                <input type="date" class="form-control me-2" placeholder="Ngày bắt đầu" formControlName="startDate">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('endDate').invalid && (contractFormCreate.get('endDate').touched||contractFormCreate.get('endDate').dirty)">
+                End Date invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">End Date</span>
+                <input type="date" class="form-control me-2" placeholder="Ngày kết thúc" formControlName="endDate">
+              </div>
+              <div *ngIf="contractFormCreate.hasError('dateError')" class="alert alert-danger" role="alert">
+                Ngày bắt đầu phải sớm hơn ngày kết thúc
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('deposit').invalid && (contractFormCreate.get('deposit').touched||contractFormCreate.get('deposit').dirty)">
+                Deposit invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Deposit</span>
+                <input type="number" class="form-control me-2" placeholder="Tiền gửi" formControlName="deposit">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('totalMoney').invalid && (contractFormCreate.get('totalMoney').touched||contractFormCreate.get('totalMoney').dirty)">
+                Total Money invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Total Money</span>
+                <input type="number" class="form-control me-2" placeholder="Tổng số tiền" formControlName="totalMoney">
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('customer').invalid && (contractFormCreate.get('customer').touched||contractFormCreate.get('customer').dirty)">
+                Customer invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Customer</span>
+                <select class="form-select me-2" formControlName="customer">
+                  <option disabled value="">Choose</option>
+                  <option *ngFor="let customer of customers" [value]="customer">
+                    {{customer.name}}
+                  </option>
+                </select>
+              </div>
+
+              <small class="text-danger mb-0 pb-0"
+                     *ngIf="contractFormCreate.get('facility').invalid && (contractFormCreate.get('facility').touched||contractFormCreate.get('facility').dirty)">
+                Facility invalid!!
+              </small>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Facility</span>
+                <select class="form-select me-2" formControlName="facility">
+                  <option disabled value="">Choose</option>
+                  <option *ngFor="let facility of facilities" [value]="facility">
+                    {{facility.name}}
+                  </option>
+                </select>
+              </div>
+
+              <br>
+              <div class="input-group mb-5 d-flex align-content-center justify-content-center">
+                <button type="submit" class="btn btn-primary" [disabled]="contractFormCreate.invalid">Create</button>
+                <button type="button" class="btn btn-danger ms-3" routerLink="/contract/list">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

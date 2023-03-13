@@ -37,7 +37,7 @@ export class FacilitiesEditComponent implements OnInit {
         numberOfFloor: new FormControl(facilityEdit.numberOfFloor, [Validators.required, Validators.min(0)]),
         image: new FormControl(facilityEdit.image, [Validators.required])
       });
-    })
+    });
   }
 
   private getFacility(id: number) {
