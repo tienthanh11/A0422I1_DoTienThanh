@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {FacilityService} from "../../service/facility.service";
 import {Router} from "@angular/router";
@@ -12,7 +12,9 @@ export class FacilitiesCreateComponent implements OnInit {
 
   facilityFormCreate: FormGroup;
 
-  constructor(private facilityService: FacilityService, private router: Router) { }
+  constructor(private facilityService: FacilityService,
+              private router: Router) {
+  }
 
   ngOnInit(): void {
     this.facilityFormCreate = new FormGroup({
@@ -32,10 +34,15 @@ export class FacilitiesCreateComponent implements OnInit {
   }
 
   createFacility() {
-    const facility = this.facilityFormCreate.value;
-    this.facilityService.createFacility(facility);
-    this.facilityFormCreate.reset();
-    alert('Thêm mới dịch vụ thành công');
-    this.router.navigateByUrl('facility/list');
+    this.facilityService.createFacility(this.facilityFormCreate.value).subscribe(
+      () => {
+      },
+      () => {
+      },
+      () => {
+        alert('Thêm mới dịch vụ thành công');
+        this.router.navigateByUrl('facility/list');
+      }
+    );
   }
 }

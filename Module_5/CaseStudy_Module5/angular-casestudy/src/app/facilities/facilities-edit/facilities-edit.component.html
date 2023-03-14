@@ -10,7 +10,7 @@
           <h3 class="font-text-footer">Edit service</h3>
           <br>
 
-          <form class="px-md-2" [formGroup]="facilityFormEdit" (ngSubmit)="editFacility(id)">
+          <form class="px-md-2" [formGroup]="facilityFormEdit" (ngSubmit)="editFacility()">
             <small class="text-danger mb-0 pb-0"
                    *ngIf="facilityFormEdit.get('id').invalid && (facilityFormEdit.get('id').touched || facilityFormEdit.get('id').dirty)">
               Id invalid!!!

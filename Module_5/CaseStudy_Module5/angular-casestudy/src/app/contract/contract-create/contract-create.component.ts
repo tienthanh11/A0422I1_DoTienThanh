@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ContractService} from "../../service/contract.service";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {ICustomer} from "../../model/icustomer";
@@ -24,14 +24,15 @@ export class ContractCreateComponent implements OnInit {
   constructor(private contractService: ContractService,
               private customerService: CustomerService,
               private facilityService: FacilityService,
-              private router: Router) { }
+              private router: Router) {
+  }
 
   ngOnInit(): void {
     console.log(this.date1);
 
-    this.customers = this.customerService.getAllCustomer();
-
-    this.facilities = this.facilityService.getAllFacility();
+    // this.customers = this.customerService.getAllCustomer();
+    //
+    // this.facilities = this.facilityService.getAllFacility();
 
     this.contractFormCreate = new FormGroup({
       startDate: new FormControl(this.date1, [Validators.required]),

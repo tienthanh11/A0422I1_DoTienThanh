@@ -1,0 +1,492 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "type": {
+        "id": 5,
+        "name": "Member"
+      },
+      "name": "Nguyễn Thị Hào",
+      "birthday": "1970-11-07",
+      "gender": "0",
+      "idCard": "643431213",
+      "phone": "0905113113",
+      "email": "thihao07@gmail.com",
+      "address": "23 Nguyễn Hoàng, Đà Nẵng"
+    },
+    {
+      "id": 2,
+      "type": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "name": "Phạm Xuân Diệu",
+      "birthday": "1992-08-08",
+      "gender": 1,
+      "idCard": "865342123",
+      "phone": "0954333333",
+      "email": "xuandieu92@gmail.com",
+      "address": "K77/22 Thái Phiên, Quảng Trị"
+    },
+    {
+      "id": 3,
+      "type": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "Trương Đình Nghệ",
+      "birthday": "1990-02-27",
+      "gender": 1,
+      "idCard": "488645199",
+      "phone": "0373213122",
+      "email": "nghenhan2702@gmail.com",
+      "address": "K323/12 Ông Ích Khiêm, Vinh"
+    },
+    {
+      "id": 4,
+      "type": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "Dương Văn Quan",
+      "birthday": "1981-07-08",
+      "gender": 1,
+      "idCard": "543432111",
+      "phone": "0490039241",
+      "email": "duongquan@gmail.com",
+      "address": "K453/12 Lê Lợi, Đà Nẵng"
+    },
+    {
+      "id": 5,
+      "type": {
+        "id": 4,
+        "name": "Silver"
+      },
+      "name": "Hoàng Trần Nhi Nhi",
+      "birthday": "1995-12-09",
+      "gender": 0,
+      "idCard": "795453345",
+      "phone": "0312345678",
+      "email": "nhinhi123@gmail.com",
+      "address": "224 Lý Thái Tổ, Gia Lai"
+    },
+    {
+      "id": 6,
+      "type": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "Tôn Nữ Mộc Châu Châu",
+      "birthday": "2005-12-08",
+      "gender": "1",
+      "idCard": "999999999",
+      "phone": "0908888844",
+      "email": "tonnuchau@gmail.com",
+      "address": "37 Yên Thế, Đà Nẵng"
+    },
+    {
+      "id": 7,
+      "type": {
+        "id": 4,
+        "name": "Silver"
+      },
+      "name": "Tôn Nữ Mộc Châu",
+      "birthday": "2005-12-06",
+      "gender": 0,
+      "idCard": "732434215",
+      "phone": "0988888844",
+      "email": "tonnuchau@gmail.com",
+      "address": "37 Yên Thế, Đà Nẵng"
+    },
+    {
+      "id": 8,
+      "type": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "Nguyễn Mỹ Kim",
+      "birthday": "1984-04-08",
+      "gender": 0,
+      "idCard": "856453123",
+      "phone": "0912345698",
+      "email": "kimcuong84@gmail.com",
+      "address": "K123/45 Lê Lợi, Hồ Chí Minh"
+    }
+  ],
+  "customer-types": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Member"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Villa Beach Front",
+      "area": 25000,
+      "cost": 10000000,
+      "maxPeople": 10,
+      "rentType": "Room",
+      "serviceType": "Year",
+      "standardRoom": "Vip",
+      "description": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOfFloor": 4,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg"
+    },
+    {
+      "id": 2,
+      "name": "House Princess 01",
+      "area": 14000,
+      "cost": 5000000,
+      "maxPeople": 7,
+      "rentType": "House",
+      "serviceType": "Month",
+      "standardRoom": "Vip",
+      "description": "Có thêm bếp nướng",
+      "poolArea": 500,
+      "numberOfFloor": 3,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Room Twin 01",
+      "area": 5000,
+      "cost": 1000000,
+      "maxPeople": 2,
+      "rentType": "Room",
+      "serviceType": "Day",
+      "standardRoom": "Normal",
+      "description": "Có tivi",
+      "poolArea": 500,
+      "numberOfFloor": 3,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Villa No Beach Front",
+      "area": 22000,
+      "cost": 9000000,
+      "maxPeople": 8,
+      "rentType": "Villa",
+      "serviceType": "Day",
+      "standardRoom": "Normal",
+      "description": "Có hồ bơi",
+      "poolArea": 300,
+      "numberOfFloor": 3,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Garden-Superior-TwinBed-1-F-370x239.jpg"
+    },
+    {
+      "id": 5,
+      "name": "House Princess 02",
+      "area": 10000,
+      "cost": 4000000,
+      "maxPeople": 5,
+      "rentType": "House",
+      "serviceType": "Month",
+      "standardRoom": "Normal",
+      "description": "Có thêm bếp nướng",
+      "poolArea": 300,
+      "numberOfFloor": 2,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-F-370x239.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Room Twin 02",
+      "area": 3000,
+      "cost": 900000,
+      "maxPeople": 2,
+      "rentType": "Room",
+      "serviceType": "Day",
+      "standardRoom": "Normal",
+      "description": "Có tivi",
+      "poolArea": 300,
+      "numberOfFloor": 2,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Presidential-Suite-F-370x239.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Villa Beach Front 02",
+      "area": 25000,
+      "cost": 10000000,
+      "maxPeople": 10,
+      "rentType": "Room",
+      "serviceType": "Year",
+      "standardRoom": "Vip",
+      "description": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOfFloor": 4,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Beach_Pool_Villas-_Exterior-1-F-370x239.jpg"
+    },
+    {
+      "id": 8,
+      "name": "House Princess 03",
+      "area": 14000,
+      "cost": 5000000,
+      "maxPeople": 7,
+      "rentType": "House",
+      "serviceType": "Month",
+      "standardRoom": "Vip",
+      "description": "Có thêm bếp nướng",
+      "poolArea": 500,
+      "numberOfFloor": 3,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Pool_Villas-F-370x239.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Room Twin 03",
+      "area": 5000,
+      "cost": 1000000,
+      "maxPeople": 2,
+      "rentType": "Room",
+      "serviceType": "Day",
+      "standardRoom": "Normal",
+      "description": "Có tivi",
+      "poolArea": 500,
+      "numberOfFloor": 3,
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-F-370x239.jpg"
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "startDate": "2020-12-08",
+      "endDate": "2020-12-08",
+      "deposit": 0,
+      "totalMoney": 500000,
+      "customer": {
+        "id": 1,
+        "type": "Member",
+        "name": "Nguyễn Thị Hào",
+        "birthday": "1970-11-07",
+        "gender": 0,
+        "idCard": "643431213",
+        "phone": "0945423362",
+        "email": "thihao07@gmail.com",
+        "address": "23 Nguyễn Hoàng, Đà Nẵng"
+      },
+      "facility": {
+        "id": 3,
+        "name": "Room Twin 01",
+        "area": 5000,
+        "cost": 1000000,
+        "maxPeople": 2,
+        "rentType": "Room",
+        "serviceType": "Day",
+        "standardRoom": "Normal",
+        "description": "Có tivi",
+        "poolArea": 500,
+        "numberOfFloor": 3,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "startDate": "2020-07-14",
+      "endDate": "2020-07-21",
+      "deposit": 200000,
+      "totalMoney": 1000000,
+      "customer": {
+        "id": 3,
+        "type": "Diamond",
+        "name": "Trương Đình Nghệ",
+        "birthday": "1990-02-27",
+        "gender": 1,
+        "idCard": "488645199",
+        "phone": "0373213122",
+        "email": "nghenhan2702@gmail.com",
+        "address": "K323/12 Ông Ích Khiêm, Vinh"
+      },
+      "facility": {
+        "id": 1,
+        "name": "Villa Beach Front",
+        "area": 25000,
+        "cost": 10000000,
+        "maxPeople": 10,
+        "rentType": "Room",
+        "serviceType": "Year",
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 500,
+        "numberOfFloor": 4,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "startDate": "2021-03-15",
+      "endDate": "2021-03-17",
+      "deposit": 50000,
+      "totalMoney": 700000,
+      "customer": {
+        "id": 4,
+        "type": "Diamond",
+        "name": "Dương Văn Quan",
+        "birthday": "1981-07-08",
+        "gender": 1,
+        "idCard": "543432111",
+        "phone": "0490039241",
+        "email": "duongquan@gmail.com",
+        "address": "K453/12 Lê Lợi, Đà Nẵng"
+      },
+      "facility": {
+        "id": 2,
+        "name": "House Princess 01",
+        "area": 14000,
+        "cost": 5000000,
+        "maxPeople": 7,
+        "rentType": "House",
+        "serviceType": "Month",
+        "standardRoom": "Vip",
+        "description": "Có thêm bếp nướng",
+        "poolArea": 500,
+        "numberOfFloor": 3,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "startDate": "2021-01-14",
+      "endDate": "2021-01-18",
+      "deposit": 100000,
+      "totalMoney": 5000000,
+      "customer": {
+        "id": 5,
+        "type": "Silver",
+        "name": "Hoàng Trần Nhi Nhi",
+        "birthday": "1995-12-09",
+        "gender": 0,
+        "idCard": "795453345",
+        "phone": "0312345678",
+        "email": "nhinhi123@gmail.com",
+        "address": "224 Lý Thái Tổ, Gia Lai"
+      },
+      "facility": {
+        "id": 5,
+        "name": "House Princess 02",
+        "area": 10000,
+        "cost": 4000000,
+        "maxPeople": 5,
+        "rentType": "House",
+        "serviceType": "Month",
+        "standardRoom": "Normal",
+        "description": "Có thêm bếp nướng",
+        "poolArea": 300,
+        "numberOfFloor": 2,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-F-370x239.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "startDate": "2021-07-14",
+      "endDate": "2021-07-15",
+      "deposit": 0,
+      "totalMoney": 500000,
+      "customer": {
+        "id": 2,
+        "type": "Gold",
+        "name": "Phạm Xuân Diệu",
+        "birthday": "1992-08-08",
+        "gender": 1,
+        "idCard": "865342123",
+        "phone": "0954333333",
+        "email": "xuandieu92@gmail.com",
+        "address": "K77/22 Thái Phiên, Quảng Trị"
+      },
+      "facility": {
+        "id": 6,
+        "name": "Room Twin 02",
+        "area": 3000,
+        "cost": 900000,
+        "maxPeople": 2,
+        "rentType": "Room",
+        "serviceType": "Day",
+        "standardRoom": "Normal",
+        "description": "Có tivi",
+        "poolArea": 300,
+        "numberOfFloor": 2,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Presidential-Suite-F-370x239.jpg"
+      }
+    },
+    {
+      "startDate": "2022-09-01",
+      "endDate": "2022-09-02",
+      "deposit": 11111111,
+      "totalMoney": 11111111,
+      "customer": {
+        "id": 6,
+        "type": "Silver",
+        "name": "Tôn Nữ Mộc Châu",
+        "birthday": "2005-12-06",
+        "gender": 0,
+        "idCard": "732434215",
+        "phone": "0988888844",
+        "email": "tonnuchau@gmail.com",
+        "address": "37 Yên Thế, Đà Nẵng"
+      },
+      "facility": {
+        "id": 6,
+        "name": "Room Twin 02",
+        "area": 3000,
+        "cost": 900000,
+        "maxPeople": 2,
+        "rentType": "Room",
+        "serviceType": "Day",
+        "standardRoom": "Normal",
+        "description": "Có tivi",
+        "poolArea": 300,
+        "numberOfFloor": 2,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Presidential-Suite-F-370x239.jpg"
+      },
+      "id": 6
+    },
+    {
+      "startDate": "2022-09-14",
+      "endDate": "2022-09-23",
+      "deposit": 22222,
+      "totalMoney": 222222222222,
+      "customer": {
+        "id": 5,
+        "type": "Silver",
+        "name": "Hoàng Trần Nhi Nhi",
+        "birthday": "1995-12-09",
+        "gender": 0,
+        "idCard": "795453345",
+        "phone": "0312345678",
+        "email": "nhinhi123@gmail.com",
+        "address": "224 Lý Thái Tổ, Gia Lai"
+      },
+      "facility": {
+        "id": 2,
+        "name": "House Princess 01",
+        "area": 14000,
+        "cost": 5000000,
+        "maxPeople": 7,
+        "rentType": "House",
+        "serviceType": "Month",
+        "standardRoom": "Vip",
+        "description": "Có thêm bếp nướng",
+        "poolArea": 500,
+        "numberOfFloor": 3,
+        "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg"
+      },
+      "id": 7
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {IFacility} from "../../model/ifacility";
 import {FacilityService} from "../../service/facility.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-facilities-list',
@@ -11,14 +12,29 @@ export class FacilitiesListComponent implements OnInit {
 
   page: number = 1;
   facilities: IFacility[] = [];
+  facilityDelete: IFacility = {};
 
-  constructor(private facilityService: FacilityService) { }
+  constructor(private facilityService: FacilityService,
+              private router: Router) { }
 
   ngOnInit(): void {
-    this.getAll();
+    this.facilityService.getAllFacility().subscribe((data) => {
+      this.facilities = data;
+    })
   }
 
-  getAll() {
-    this.facilities = this.facilityService.getAllFacility();
+  showInfo(facility: IFacility) {
+    this.facilityDelete = facility;
+  }
+
+  delete(id: number) {
+    this.facilityService.deleteFacility(id).subscribe(
+      () => {},
+      () => {},
+      () => {
+        alert('Xoá dịch vụ thành công');
+        this.ngOnInit();
+      }
+    );
   }
 }

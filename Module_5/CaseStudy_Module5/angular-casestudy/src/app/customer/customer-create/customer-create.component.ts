@@ -21,7 +21,9 @@ export class CustomerCreateComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.customerTypes = this.customerTypeService.getAllCustomerType();
+    this.customerTypeService.getAllCustomerType().subscribe((data) => {
+      this.customerTypes = data;
+    });
 
     this.customerFormCreate = new FormGroup({
       type: new FormControl('', [Validators.required]),
@@ -37,10 +39,15 @@ export class CustomerCreateComponent implements OnInit {
 
 
   createCustomer() {
-    const customer = this.customerFormCreate.value;
-    this.customerService.createCustomer(customer);
-    this.customerFormCreate.reset();
-    alert('Thêm mới khánh hàng thành công');
-    this.router.navigateByUrl('/customer/list');
+    this.customerService.createCustomer(this.customerFormCreate.value).subscribe(
+      () => {
+      },
+      () => {
+      },
+      () => {
+        alert('Thêm mới khách hàng thành công');
+        this.router.navigateByUrl('customer/list');
+      }
+    );
   }
 }

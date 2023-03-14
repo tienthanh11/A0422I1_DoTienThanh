@@ -22,33 +22,35 @@ export class FacilitiesEditComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe((param) => {
       this.id = +(param.get('id'));
-      const facilityEdit = this.getFacility(this.id);
-      this.facilityFormEdit = new FormGroup({
-        id: new FormControl(facilityEdit.id, [Validators.required]),
-        name: new FormControl(facilityEdit.name, [Validators.required, Validators.pattern('^\\D*$')]),
-        area: new FormControl(facilityEdit.area, [Validators.required, Validators.min(0)]),
-        cost: new FormControl(facilityEdit.cost, [Validators.required, Validators.min(0)]),
-        maxPeople: new FormControl(facilityEdit.maxPeople, [Validators.required, Validators.min(0)]),
-        rentType: new FormControl(facilityEdit.rentType, [Validators.required]),
-        serviceType: new FormControl(facilityEdit.serviceType, [Validators.required]),
-        standardRoom: new FormControl(facilityEdit.standardRoom, [Validators.required]),
-        description: new FormControl(facilityEdit.description, [Validators.required]),
-        poolArea: new FormControl(facilityEdit.poolArea, [Validators.required, Validators.min(0)]),
-        numberOfFloor: new FormControl(facilityEdit.numberOfFloor, [Validators.required, Validators.min(0)]),
-        image: new FormControl(facilityEdit.image, [Validators.required])
+      this.facilityService.findByIdFacility(this.id).subscribe((facilityEdit) => {
+        this.facilityFormEdit = new FormGroup({
+          id: new FormControl(facilityEdit.id, [Validators.required]),
+          name: new FormControl(facilityEdit.name, [Validators.required, Validators.pattern('^\\D*$')]),
+          area: new FormControl(facilityEdit.area, [Validators.required, Validators.min(0)]),
+          cost: new FormControl(facilityEdit.cost, [Validators.required, Validators.min(0)]),
+          maxPeople: new FormControl(facilityEdit.maxPeople, [Validators.required, Validators.min(0)]),
+          rentType: new FormControl(facilityEdit.rentType, [Validators.required]),
+          serviceType: new FormControl(facilityEdit.serviceType, [Validators.required]),
+          standardRoom: new FormControl(facilityEdit.standardRoom, [Validators.required]),
+          description: new FormControl(facilityEdit.description, [Validators.required]),
+          poolArea: new FormControl(facilityEdit.poolArea, [Validators.required, Validators.min(0)]),
+          numberOfFloor: new FormControl(facilityEdit.numberOfFloor, [Validators.required, Validators.min(0)]),
+          image: new FormControl(facilityEdit.image, [Validators.required])
+        });
       });
     });
   }
 
-  private getFacility(id: number) {
-    return this.facilityService.findByIdFacility(id);
-  }
-
-
-  editFacility(id: number) {
-    const facility = this.facilityFormEdit.value;
-    this.facilityService.updateFacility(id, facility);
-    alert('Sửa dịch vụ thành công');
-    this.router.navigateByUrl('facility/list');
+  editFacility() {
+    this.facilityService.updateFacility(this.id, this.facilityFormEdit.value).subscribe(
+      () => {
+      },
+      () => {
+      },
+      () => {
+        alert('Sửa dịch vụ thành công');
+        this.router.navigateByUrl('facility/list');
+      }
+    );
   }
 }
