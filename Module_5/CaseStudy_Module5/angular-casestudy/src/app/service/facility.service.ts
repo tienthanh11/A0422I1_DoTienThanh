@@ -36,8 +36,4 @@ export class FacilityService {
   deleteFacility(id: number): Observable<void> {
     return this.httpClient.delete<void>(this.URI + '/' + id);
   }
-
-  searchCustomer(name: string, email: string, typeId: string): Observable<ICustomer[]> {
-    return this.httpClient.get<ICustomer[]>(this.URI + '?name_like=' + name + '&email_like=' + email + 'type.id_like=' + typeId);
-  }
 }
