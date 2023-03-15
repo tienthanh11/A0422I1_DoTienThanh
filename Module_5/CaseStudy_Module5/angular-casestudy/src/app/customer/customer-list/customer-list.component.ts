@@ -4,6 +4,7 @@ import {ICustomerType} from "../../model/icustomer-type";
 import {CustomerService} from "../../service/customer.service";
 import {CustomerTypeService} from "../../service/customer-type.service";
 import {FormControl, FormGroup} from "@angular/forms";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-customer-list',
@@ -22,7 +23,8 @@ export class CustomerListComponent implements OnInit {
   totalLength: number;
 
   constructor(private customerService: CustomerService,
-              private customerTypeService: CustomerTypeService) {
+              private customerTypeService: CustomerTypeService,
+              private toast: ToastrService) {
   }
 
   ngOnInit(): void {
@@ -58,7 +60,7 @@ export class CustomerListComponent implements OnInit {
       () => {
       },
       () => {
-        alert("Xoá khách hàng thành công");
+        this.toast.success("Xoá khách hàng thành công");
         this.getAll();
       }
     );

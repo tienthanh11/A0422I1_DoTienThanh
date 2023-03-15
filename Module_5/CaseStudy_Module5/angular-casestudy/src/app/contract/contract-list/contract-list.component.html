@@ -17,17 +17,20 @@
         </tr>
         </thead>
         <tbody>
-        <tr *ngFor="let contract of contracts">
+        <tr *ngFor="let contract of contracts | paginate: {itemsPerPage: 3, currentPage: page}">
           <td>{{contract.id}}</td>
           <td>{{contract.startDate | date: 'dd/MM/yyyy'}}</td>
           <td>{{contract.endDate | date: 'dd/MM/yyyy'}}</td>
-          <td>{{contract.deposit}}</td>
-          <td>{{contract.totalMoney}}</td>
+          <td>{{contract.deposit| currency: 'VND'}}</td>
+          <td>{{contract.totalMoney| currency: 'VND'}}</td>
           <td>{{contract.customer.name}}</td>
           <td>{{contract.facility.name}}</td>
         </tr>
         </tbody>
       </table>
     </div>
+  </div>
+  <div class="d-flex justify-content-center align-content-center">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
   </div>
 </div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {IFacility} from "../../model/ifacility";
 import {FacilityService} from "../../service/facility.service";
-import {Router} from "@angular/router";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-facilities-list',
@@ -15,7 +15,7 @@ export class FacilitiesListComponent implements OnInit {
   facilityDelete: IFacility = {};
 
   constructor(private facilityService: FacilityService,
-              private router: Router) { }
+              private toast: ToastrService) { }
 
   ngOnInit(): void {
     this.facilityService.getAllFacility().subscribe((data) => {
@@ -32,7 +32,7 @@ export class FacilitiesListComponent implements OnInit {
       () => {},
       () => {},
       () => {
-        alert('Xoá dịch vụ thành công');
+        this.toast.success("Xoá dịch vụ thành công");
         this.ngOnInit();
       }
     );

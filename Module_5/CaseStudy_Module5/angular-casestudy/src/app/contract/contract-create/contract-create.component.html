@@ -59,7 +59,7 @@
                 <span class="input-group-text">Customer</span>
                 <select class="form-select me-2" formControlName="customer">
                   <option disabled value="">Choose</option>
-                  <option *ngFor="let customer of customers" [value]="customer">
+                  <option *ngFor="let customer of customers" [ngValue]="customer">
                     {{customer.name}}
                   </option>
                 </select>
@@ -73,7 +73,7 @@
                 <span class="input-group-text">Facility</span>
                 <select class="form-select me-2" formControlName="facility">
                   <option disabled value="">Choose</option>
-                  <option *ngFor="let facility of facilities" [value]="facility">
+                  <option *ngFor="let facility of facilities" [ngValue]="facility">
                     {{facility.name}}
                   </option>
                 </select>

@@ -3,6 +3,7 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {FacilityService} from "../../service/facility.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {jsGlobalObjectValue} from "@angular/compiler-cli/src/ngtsc/partial_evaluator/src/known_declaration";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-facilities-edit',
@@ -16,7 +17,8 @@ export class FacilitiesEditComponent implements OnInit {
 
   constructor(private facilityService: FacilityService,
               private router: Router,
-              private activatedRoute: ActivatedRoute) {
+              private activatedRoute: ActivatedRoute,
+              private toast: ToastrService) {
   }
 
   ngOnInit(): void {
@@ -48,7 +50,7 @@ export class FacilitiesEditComponent implements OnInit {
       () => {
       },
       () => {
-        alert('Sửa dịch vụ thành công');
+        this.toast.success("Sửa dịch vụ thành công");
         this.router.navigateByUrl('facility/list');
       }
     );

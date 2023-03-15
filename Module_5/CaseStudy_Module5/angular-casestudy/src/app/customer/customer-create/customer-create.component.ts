@@ -4,6 +4,7 @@ import {ICustomerType} from "../../model/icustomer-type";
 import {CustomerService} from "../../service/customer.service";
 import {CustomerTypeService} from "../../service/customer-type.service";
 import {Router} from "@angular/router";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-customer-create',
@@ -17,7 +18,8 @@ export class CustomerCreateComponent implements OnInit {
 
   constructor(private customerService: CustomerService,
               private customerTypeService: CustomerTypeService,
-              private router: Router) {
+              private router: Router,
+              private toast: ToastrService) {
   }
 
   ngOnInit(): void {
@@ -45,7 +47,7 @@ export class CustomerCreateComponent implements OnInit {
       () => {
       },
       () => {
-        alert('Thêm mới khách hàng thành công');
+        this.toast.success("Thêm mới khách hàng thành công");
         this.router.navigateByUrl('customer/list');
       }
     );

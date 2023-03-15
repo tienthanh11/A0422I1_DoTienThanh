@@ -1,18 +1,23 @@
-import { Injectable } from '@angular/core';
-import {ContractDAO} from "../data/ContractDAO";
+import {Injectable} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import {Observable} from "rxjs";
+import {IContract} from "../model/icontract";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ContractService {
 
-  constructor() { }
+  readonly URI: string = 'http://localhost:3000/contracts';
 
-  getAllContract() {
-    return ContractDAO.contacts;
+  constructor(private httpClient: HttpClient) {
   }
 
-  createContract(contract) {
-    return ContractDAO.contacts.push(contract);
+  getAllContract(): Observable<IContract[]> {
+    return this.httpClient.get<IContract[]>(this.URI);
+  }
+
+  createContract(contract: IContract): Observable<void> {
+    return this.httpClient.post<void>(this.URI, contract);
   }
 }
